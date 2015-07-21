@@ -48,36 +48,8 @@ body, h1, h2, h3, h4 {
 	float: none;
 }
 
-@media only screen and (min-width: 40.063em) {
-	.button-group{
-		float: right;
-	}
-}
-
-
 .hero-title{
   text-align:right;
-}
-
-
-@media only screen and (max-width: 40em) {
-  .hero-title {
-  	padding-top: 10%;
-    font-size: 2.5rem;
-    text-align:left;
-  }
-}
-
-@media only screen and (min-width: 40.063em) {
-  .hero-title {
-    font-size: 5rem
-  }
-}
-
-@media only screen and (min-width: 64.063em) {
-  .hero-title {
-    font-size: 7rem
-  }
 }
 
 .intro-text {
@@ -85,11 +57,45 @@ body, h1, h2, h3, h4 {
 	font-weight: 400;
 }
 
+
 @media only screen and (max-width: 40em) {
 	.intro-text {
 		font-size: 1rem;
 		text-align: left;
 	}
+    .hero-title {
+  	padding-top: 5%;
+    font-size: 2.5rem;
+    text-align:left;
+    }
+    #main_banner, #map, heading {
+    	height:200px;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+  	.hero-title {
+    font-size: 5rem
+  	}
+  	.button-group {
+		float: right;
+	}
+    #main_banner, #map, heading {
+    	height:400px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+	.hero-title {
+	padding-top: 10%;
+	font-size: 7rem;
+	}
+	#main_banner, #map, heading {
+		height:600px;
+	}
+}
+
+
 
 .about, .work, .contact {
 	padding: 50px 0 0 0;
@@ -134,4 +140,8 @@ footer {
 footer a:hover {
 	color: rgba(0, 0, 0, 0.4);
 	background-color: transparent;
+}
+
+ul {
+    list-style-type: square;
 }
