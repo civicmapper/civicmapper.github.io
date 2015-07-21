@@ -25,51 +25,10 @@
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
 	-->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,300italic,600italic,600' rel='stylesheet' type='text/css'>
-    <style>
-        body,
-        h1,
-        h2,
-        h3,
-        h4 {
-            font-family: 'Titillium Web', sans-serif;
-        }
-        
-        #main_banner {
-            width: 100%;
-            height: 400px;
-            position: relative;
-        }
-        
-        #map,
-        heading {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-            height: 400px;
-        }
-        
-        #heading {
-            z-index: 10;
-        }
-        
-        IMG.centered {
-            display: block;
-            margin-left: auto;
-            margin-right: auto
-        }
-        /*
-	.navrow {
-		background-color:	#fff;
-		border-bottom-style: solid;
-		border-bottom-width: thin;
-		border-bottom-color: #44739f;
-		}
-		*/
-    </style>
 </head>
 
 <body>
+    <!--
     <div class="row" style="padding-bottom:10px">
         <div class="navrow" data-magellan-expedition="fixed">
             <div class="small-12 columns">
@@ -90,7 +49,7 @@
             </div>
         </div>
     </div>
-
+    -->
 
     <a name="home"></a>
     <div id="main_banner">
@@ -110,7 +69,7 @@
                 <br/>
                 <br/>
                 <h1 class="hero-title">CIVICMAPPER</h1>
-                <h3 class="intro-text">A geographic information services firm focused on building open architecture solutions for open data</h3>
+                <h3 class="intro-text show-for-medium-up">A geographic information services firm focused on building open architecture solutions for open data</h3>
             </div>
         </div>
 
@@ -123,13 +82,20 @@
             <div class="large-8 columns">
                 <h1><a name="about"></a>About Us</h1>
                 <p>At Civicmapper, our mission is to enable and empower our clients to use the geospatial data they depend on to better support their missions.</p>
-                <p>We are a team of experts in geographic information systems (GIS), with broad experience in applying these tools to public and private sector projects.
-                <p>
+                <p>We are a team of experts in geographic information systems (GIS), with experience applying GIS to support a broad range of projects and services.</p>
 
             </div>
-            <div class="large-4 columns" style="background-color:rgba(46,116,181,0.5)">
-                <!--<p>sidebar image</p>
-			<img class="centered show-for-medium-up" src="img/logo-02.png" style="width:80%;"/>-->
+            <div class="large-4 columns">
+                <h3>Contact</h3>
+                <div style="text-align:left;" class="large-12 columns">
+                    <p><a href="mailto:info@civicmapper.com">info@civicmapper.com</a></p>
+                </div>
+                <div style="text-align:left;" class="large-12 columns">
+                    <p><a href="http://www.twitter.com/civicmapper">@civicmapper</a></p>
+                </div>
+                <div style="text-align:left;" class="large-12 columns">
+                    <!--<p>412-000-0000</p>-->
+                </div>
             </div>
         </div>
     </div>
@@ -139,8 +105,10 @@
         <div class="row" style="padding-bottom:25px;">
             <hr></hr>
             <div class="large-8 columns" data-magellan-destination="services">
-                <h1><a name="services"></a>Services</h1>
-                <p>We specialize a broad range of services related to geographic information, including:</p>
+                <h1><a name="services"></a>Our Scope</h1>
+                <p>Our team has a range of professional and academic experience to offer to your organization:</p>
+                <h3>Services</h3>
+                <p>We specialize in a range of services related to geographic information, including:</p>
                 <ul>
                     <li>geospatial data capture, collection, organization, and maintenance</li>
                     <li>geospatial database design, implementation, and management</li>
@@ -148,17 +116,20 @@
                     <li>spatial and non-spatial data visualization</li>
                     <li>custom web and print cartography</li>
                 </ul>
+                <h3>Experience</h3>
                 <p>Our team has experience applying GIS in a number of practice areas, including:</p>
                 <ul>
                     <li>local and regional governments and non-governmental organizations</li>
                     <li>municipal infrastructure engineering</li>
                     <li>urban and regional planning</li>
-                    <li>urban design, landscape architecture, and architecture</li>
+                    <li>urban design</li>
+                    <li>geology</li> 
+                    <li>hydrology</li>
+                    <li>brownfields</li>
                     <li>energy and resource development</li>
                     <li>environmental planning</li>
                     <li>parks, recreation, and tourism planning</li>
                 </ul>
-                <p>Our work is guided by four principles:</p>
             </div>
             <div class="large-4 columns" style="background-color:rgba(46,116,181,0.5)">
                 <!--<p>sidebar image</p>
@@ -169,25 +140,27 @@
 
     <div class="row">
         <div class="large-12 columns">
+            <h3>Approach</h3>
+            <p>Our approach to our work is guided by four principles:</p>
             <ul class="medium-block-grid-2">
                 <li>
                     <hr>
-                    <h3>Open by default.</h3>
-                    <p>We work to make geodata accessible and transparent from project inception to implementation, and look to open data principles and concepts as a model. Even if the information is sensitive and cannot be truly "open", we work to develop an open-architecture solution to ensure that when the data is ready to share with world, it is built upon existing standards.</p>
+                    <h4>Open by default.</h4>
+                    <p>We work to make geodata accessible and transparent from project inception to implementation, and look to <strong>open data</strong> and <strong>open software</strong> concepts as a model. This holistic, open-architecture approach to GIS ensures that the work we do is built upon existing standards and integrates with existing workflows.</p>
                 </li>
                 <li>
                     <hr>
-                    <h3>Data as a living product.</h3>
-                    <p>Data is not just a deliverable - it is an evolving and critical element of your organization. We work with you to structure existing processes to support maintenance of data so that it grows and supports your mission.</p>
+                    <h4>Data as a living product.</h4>
+                    <p>Data is not just a deliverable - it is an evolving and critical element of your organization. We work with you to structure existing processes to support the easy maintenance of data so that the data grows and supports your mission, without distracting from it.</p>
                 </li>
                 <li>
                     <hr>
-                    <h3>Platform integration and evolution.</h3>
-                    <p>When it comes to geographic information systems, there are a lot of software and hardware options out there to choose from. We use the platform(s) for geographic data collection, collaboration, and dissemination that are matched for your organization's needs now, with an eye towards future aspirations.</p>
+                    <h4>Evolving and integrated platforms.</h4>
+                    <p>When it comes to geographic information systems, there are a lot of software and hardware options out there to choose from. We use the platform(s) for geographic data collection, collaboration, and dissemination that are matched for your organization's needs now, with an eye towards the future.</p>
                 </li>
                 <li>
                     <hr>
-                    <h3>Agile and iterative development.</h3>
+                    <h4>Agile and iterative development.</h4>
                     <p>Whether the goal is to build a simple map or a complex geospatial database, new information gleaned from the development process can necessitate a change in approach or scope. We employ an agile and iterative spiral approach to both data collection and software development in order to reach an optimal solution.</p>
                 </li>
                 <!--
@@ -206,11 +179,12 @@
             <hr></hr>
             <div class="large-12 columns">
                 <h1 data-magellan-destination="contact"><a name="contact"></a>Contact</h1>
+                <p>Give us a shout! We'd love to talk to you about building the solution that takes your organization to the next level!</p>
                 <div style="text-align:center;" class="large-4 columns">
-                    <a href="mailto:info@civicmapper.com">info@civicmapper.com</a>
+                    <p><a href="mailto:info@civicmapper.com">info@civicmapper.com</a></p>
                 </div>
                 <div style="text-align:center;" class="large-4 columns">
-                    <a href="http://www.twitter.com/civicmapper">@civicmapper</a>
+                    <p><a href="http://www.twitter.com/civicmapper">@civicmapper</a></p>
                 </div>
                 <div style="text-align:center;" class="large-4 columns">
                     <!--<p>412-000-0000</p>-->
@@ -224,7 +198,7 @@
         <hr>
         <div class="row">
             <div class="large-7 columns">
-                <p>&copy; Copyright <strong>Civic Mapper, LLC.</strong> 2015.</p>
+                <p>&copy; Copyright <strong>Civic Mapper LLC.</strong> 2015.</p>
             </div>
         </div>
     </footer>
