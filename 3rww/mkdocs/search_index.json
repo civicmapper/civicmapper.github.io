@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "3 Rivers Wet Weather Atlas Documentation\n\n\nProject Status\n\n\n\n\nRegional Green Infrastructure Atlas\n:      version 1.0 available\n\n\nRegional Sewer Infrastructure Atlas\n:      version 1.0 in development\n\n\nRain Gauge Data\n:                          new verstion in development\n\n\nPlanning and Engineering Tool\n:            offline, new version in developemnt\n\n\nHomeowner's Tool\n:                         new version in development\n\n\n\n\n\n\n\nAcesss\n\n\nusername: weather3\n\n\npassword: SwES?u3r\n\n\n\n\n\nRegional Sewer Infrastructure (RSI) Products\n\n\nOperational/Editing Products\n\n\nRSI Atlas (Editor)\n\n\n\n    \nURL:\n[http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20]\n\n    \nType\nArcGIS Online - Web Application\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRSI Map (Editor)\n\n\n\n    \nURL:\n[http://arcg.is/1PXweVa]\n\n    \nType\nArcGIS Online - Web Map\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRSI Operational Data (Editor)\n\n\n...\n\n\nPublic Products\n\n\nRSI Atlas (Public)\n\n\n...\n\n\nRSI Web Map (Public)\n\n\n...\n\n\nRSI Partner Data (Public)\n\n\n...\n\n\nRegional Green Infrastructure (RGI) Products\n\n\nOperational/Editing Products\n\n\nRGI Atlas (Editor)\n\n\n\n    \nURL\n[http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9]\n\n    \nType\nArcGIS Online - Web Application\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRGI Web Map (Editor)\n\n\n\n    \nURL\n[http://arcg.is/1PXu73G]\n    \nType\nArcGIS Online - Web Map\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRGI Operational Data (Editor)\n\n\n...\n\n\nPublic Products\n\n\nRGI Atlas (Public)\n\n\n\n    \nURL:\n[http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117]\n\n    \nType\nArcGIS Online - Web Application\n\n    \nAccess\nPublic\n\n\n\n\n\nRGI Web Map (Public)\n\n\n\n    \nURL\n[http://arcg.is/1PXtneX]\n    \nType\nArcGIS Online - Web Map\n\n    \nAccess\nPublic\n\n\n\n\n\nRGI Partner Data (Public)\n\n\n\n    \nURL\n[http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0]\n\n    \nType\nArcGIS Online - Feature Layer\n\n    \nAccess\nPublic", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#3-rivers-wet-weather-atlas-documentation", 
+            "text": "", 
+            "title": "3 Rivers Wet Weather Atlas Documentation"
+        }, 
+        {
+            "location": "/#project-status", 
+            "text": "Regional Green Infrastructure Atlas :      version 1.0 available  Regional Sewer Infrastructure Atlas :      version 1.0 in development  Rain Gauge Data :                          new verstion in development  Planning and Engineering Tool :            offline, new version in developemnt  Homeowner's Tool :                         new version in development", 
+            "title": "Project Status"
+        }, 
+        {
+            "location": "/#acesss", 
+            "text": "username: weather3  password: SwES?u3r", 
+            "title": "Acesss"
+        }, 
+        {
+            "location": "/#regional-sewer-infrastructure-rsi-products", 
+            "text": "", 
+            "title": "Regional Sewer Infrastructure (RSI) Products"
+        }, 
+        {
+            "location": "/#operationalediting-products", 
+            "text": "RSI Atlas (Editor)  \n     URL: [http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20] \n     Type ArcGIS Online - Web Application \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RSI Map (Editor)  \n     URL: [http://arcg.is/1PXweVa] \n     Type ArcGIS Online - Web Map \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RSI Operational Data (Editor)  ...", 
+            "title": "Operational/Editing Products"
+        }, 
+        {
+            "location": "/#public-products", 
+            "text": "RSI Atlas (Public)  ...  RSI Web Map (Public)  ...  RSI Partner Data (Public)  ...", 
+            "title": "Public Products"
+        }, 
+        {
+            "location": "/#regional-green-infrastructure-rgi-products", 
+            "text": "", 
+            "title": "Regional Green Infrastructure (RGI) Products"
+        }, 
+        {
+            "location": "/#operationalediting-products_1", 
+            "text": "RGI Atlas (Editor)  \n     URL [http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9] \n     Type ArcGIS Online - Web Application \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RGI Web Map (Editor)  \n     URL [http://arcg.is/1PXu73G]\n     Type ArcGIS Online - Web Map \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RGI Operational Data (Editor)  ...", 
+            "title": "Operational/Editing Products"
+        }, 
+        {
+            "location": "/#public-products_1", 
+            "text": "RGI Atlas (Public)  \n     URL: [http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117] \n     Type ArcGIS Online - Web Application \n     Access Public   RGI Web Map (Public)  \n     URL [http://arcg.is/1PXtneX]\n     Type ArcGIS Online - Web Map \n     Access Public   RGI Partner Data (Public)  \n     URL [http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0] \n     Type ArcGIS Online - Feature Layer \n     Access Public", 
+            "title": "Public Products"
+        }
+    ]
+}
