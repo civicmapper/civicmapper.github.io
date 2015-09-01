@@ -9,4 +9,28 @@
     </url>
     
 
+    
+    <url>
+     <loc>None/frontend/</loc>
+     <lastmod>2015-08-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/backend/</loc>
+     <lastmod>2015-08-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/guide_rsi/</loc>
+     <lastmod>2015-08-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
 </urlset>

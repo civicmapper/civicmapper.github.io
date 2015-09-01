@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Help documentation for the 3 Rivers Wet Weather Atlas products.">
         
         
+        <link rel="shortcut icon" href="./favicon.ico">
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
 
 	<title>3RWW Atlas Documentation</title>
 
@@ -33,6 +34,14 @@
         <!-- Collapsed navigation -->
         <div class="navbar-header">
             
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
 
             <!-- Main title -->
             <a class="navbar-brand" href=".">3RWW Atlas Documentation</a>
@@ -41,6 +50,35 @@
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
             
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href=".">Overview</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="frontend/">Atlases</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="backend/">Maps & Services</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="guide_rsi/">RSI Guide</a>
+                    </li>
+                
+                
+                </ul>
+            
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -48,6 +86,17 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
+                
+                    <li class="disabled">
+                        <a rel="next" >
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="frontend/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
                 
                 
             </ul>
@@ -65,20 +114,6 @@
             <li><a href="#project-status">Project Status</a></li>
         
     
-        <li class="main "><a href="#regional-sewer-infrastructure-rsi-products">Regional Sewer Infrastructure (RSI) Products</a></li>
-        
-            <li><a href="#operationalediting-products">Operational/Editing Products</a></li>
-        
-            <li><a href="#public-products">Public Products</a></li>
-        
-    
-        <li class="main "><a href="#regional-green-infrastructure-rgi-products">Regional Green Infrastructure (RGI) Products</a></li>
-        
-            <li><a href="#operationalediting-products_1">Operational/Editing Products</a></li>
-        
-            <li><a href="#public-products_1">Public Products</a></li>
-        
-    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -86,80 +121,12 @@
 <h1 id="3-rivers-wet-weather-atlas-documentation">3 Rivers Wet Weather Atlas Documentation</h1>
 <h2 id="project-status">Project Status</h2>
 <ul>
-<li><strong>Regional Green Infrastructure Atlas</strong>:      version 1.0 available</li>
-<li><strong>Regional Sewer Infrastructure Atlas</strong>:      version 1.0 in development</li>
-<li><strong>Rain Gauge Data</strong>:                          new verstion in development</li>
-<li><strong>Planning and Engineering Tool</strong>:            offline, new version in developemnt</li>
-<li><strong>Homeowner's Tool</strong>:                         new version in development</li>
-</ul>
-<hr>
-
-<h1 id="regional-sewer-infrastructure-rsi-products">Regional Sewer Infrastructure (RSI) Products</h1>
-<h2 id="operationalediting-products">Operational/Editing Products</h2>
-<h3 id="rsi-atlas-editor">RSI Atlas (Editor)</h3>
-<table>
-    <tr><td>URL:</td><td><a href='http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20'>http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20</a></td></tr>
-    <tr><td>Type</td><td>ArcGIS Online - Web Application</td></tr>
-    <tr><td>Access</td><td>Restricted via AlcoGIS Login & 3RWW Group</td></tr>
-</table>
-
-<h3 id="rsi-map-editor">RSI Map (Editor)</h3>
-<table>
-    <tr><td>URL:</td><td><a href='http://arcg.is/1PXweVa'>http://arcg.is/1PXweVa</a></td></tr>
-    <tr><td>Type</td><td>ArcGIS Online - Web Map</td></tr>
-    <tr><td>Access</td><td>Restricted via AlcoGIS Login & 3RWW Group</td></tr>
-</table>
-
-<h3 id="rsi-operational-data-editor">RSI Operational Data (Editor)</h3>
-<p>...</p>
-<h2 id="public-products">Public Products</h2>
-<h3 id="rsi-atlas-public">RSI Atlas (Public)</h3>
-<p>...</p>
-<h3 id="rsi-web-map-public">RSI Web Map (Public)</h3>
-<p>...</p>
-<h3 id="rsi-partner-data-public">RSI Partner Data (Public)</h3>
-<p>...</p>
-<hr>
-
-<h1 id="regional-green-infrastructure-rgi-products">Regional Green Infrastructure (RGI) Products</h1>
-<h2 id="operationalediting-products_1">Operational/Editing Products</h2>
-<h3 id="rgi-atlas-editor">RGI Atlas (Editor)</h3>
-<table>
-    <tr><td>URL</td><td><a href='http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9'>http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9</a></td></tr>
-    <tr><td>Type</td><td>ArcGIS Online - Web Application</td></tr>
-    <tr><td>Access</td><td>Restricted via AlcoGIS Login & 3RWW Group</td></tr>
-</table>
-
-<h3 id="rgi-web-map-editor">RGI Web Map (Editor)</h3>
-<table>
-    <tr><td>URL</td><td><a href='http://arcg.is/1PXu73G'>http://arcg.is/1PXu73G</a></td></tr>
-    <tr><td>Type</td><td>ArcGIS Online - Web Map</td></tr>
-    <tr><td>Access</td><td>Restricted via AlcoGIS Login & 3RWW Group</td></tr>
-</table>
-
-<h3 id="rgi-operational-data-editor">RGI Operational Data (Editor)</h3>
-<p>...</p>
-<h2 id="public-products_1">Public Products</h2>
-<h3 id="rgi-atlas-public">RGI Atlas (Public)</h3>
-<table>
-    <tr><td>URL:</td><td><a href='http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117'>http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117</a></td></tr>
-    <tr><td>Type</td><td>ArcGIS Online - Web Application</td></tr>
-    <tr><td>Access</td><td>Public</td></tr>
-</table>
-
-<h3 id="rgi-web-map-public">RGI Web Map (Public)</h3>
-<table>
-    <tr><td>URL</td><td><a href='http://arcg.is/1PXtneX'>http://arcg.is/1PXtneX</a></td></tr
-    <tr><td>Type</td><td>ArcGIS Online - Web Map</td></tr>
-    <tr><td>Access</td><td>Public</td></tr>
-</table>
-
-<h3 id="rgi-partner-data-public">RGI Partner Data (Public)</h3>
-<table>
-    <tr><td>URL</td><td><a href='http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0'>http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0</a></td></tr>
-    <tr><td>Type</td><td>ArcGIS Online - Feature Layer</td></tr>
-    <tr><td>Access</td><td>Public</td></tr>
-</table></div>
+<li><strong>Regional Green Infrastructure (RGI) Atlas</strong>:        version 1.0 available</li>
+<li><strong>Regional Sewer Infrastructure (RSI) Atlas</strong>:        version 1.0 available, with active improvements</li>
+<li><strong>Rain Gauge Data</strong>:                                  online; new version in development</li>
+<li><strong>Planning and Engineering Tool</strong>:                    offline; new version in developemnt</li>
+<li><strong>Homeowner's Tool</strong>:                                 online; new version in development</li>
+</ul></div>
             
         </div>
 
@@ -206,5 +173,5 @@
 
 <!--
 MkDocs version : 0.14.0
-Build Date UTC : 2015-08-31 16:18:21.354000
+Build Date UTC : 2015-09-01 01:53:30.693000
 -->

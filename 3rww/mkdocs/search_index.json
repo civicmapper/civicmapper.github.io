@@ -2,8 +2,8 @@
     "docs": [
         {
             "location": "/", 
-            "text": "3 Rivers Wet Weather Atlas Documentation\n\n\nProject Status\n\n\n\n\nRegional Green Infrastructure Atlas\n:      version 1.0 available\n\n\nRegional Sewer Infrastructure Atlas\n:      version 1.0 in development\n\n\nRain Gauge Data\n:                          new verstion in development\n\n\nPlanning and Engineering Tool\n:            offline, new version in developemnt\n\n\nHomeowner's Tool\n:                         new version in development\n\n\n\n\n\n\n\nRegional Sewer Infrastructure (RSI) Products\n\n\nOperational/Editing Products\n\n\nRSI Atlas (Editor)\n\n\n\n    \nURL:\nhttp://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20\n\n    \nType\nArcGIS Online - Web Application\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRSI Map (Editor)\n\n\n\n    \nURL:\nhttp://arcg.is/1PXweVa\n\n    \nType\nArcGIS Online - Web Map\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRSI Operational Data (Editor)\n\n\n...\n\n\nPublic Products\n\n\nRSI Atlas (Public)\n\n\n...\n\n\nRSI Web Map (Public)\n\n\n...\n\n\nRSI Partner Data (Public)\n\n\n...\n\n\n\n\n\nRegional Green Infrastructure (RGI) Products\n\n\nOperational/Editing Products\n\n\nRGI Atlas (Editor)\n\n\n\n    \nURL\nhttp://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9\n\n    \nType\nArcGIS Online - Web Application\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRGI Web Map (Editor)\n\n\n\n    \nURL\nhttp://arcg.is/1PXu73G\n\n    \nType\nArcGIS Online - Web Map\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nRGI Operational Data (Editor)\n\n\n...\n\n\nPublic Products\n\n\nRGI Atlas (Public)\n\n\n\n    \nURL:\nhttp://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117\n\n    \nType\nArcGIS Online - Web Application\n\n    \nAccess\nPublic\n\n\n\n\n\nRGI Web Map (Public)\n\n\n\n    \nURL\nhttp://arcg.is/1PXtneX\nType\nArcGIS Online - Web Map\n\n    \nAccess\nPublic\n\n\n\n\n\nRGI Partner Data (Public)\n\n\n\n    \nURL\nhttp://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0\n\n    \nType\nArcGIS Online - Feature Layer\n\n    \nAccess\nPublic", 
-            "title": "Home"
+            "text": "3 Rivers Wet Weather Atlas Documentation\n\n\nProject Status\n\n\n\n\nRegional Green Infrastructure (RGI) Atlas\n:        version 1.0 available\n\n\nRegional Sewer Infrastructure (RSI) Atlas\n:        version 1.0 available, with active improvements\n\n\nRain Gauge Data\n:                                  online; new version in development\n\n\nPlanning and Engineering Tool\n:                    offline; new version in developemnt\n\n\nHomeowner's Tool\n:                                 online; new version in development", 
+            "title": "Overview"
         }, 
         {
             "location": "/#3-rivers-wet-weather-atlas-documentation", 
@@ -12,38 +12,183 @@
         }, 
         {
             "location": "/#project-status", 
-            "text": "Regional Green Infrastructure Atlas :      version 1.0 available  Regional Sewer Infrastructure Atlas :      version 1.0 in development  Rain Gauge Data :                          new verstion in development  Planning and Engineering Tool :            offline, new version in developemnt  Homeowner's Tool :                         new version in development", 
+            "text": "Regional Green Infrastructure (RGI) Atlas :        version 1.0 available  Regional Sewer Infrastructure (RSI) Atlas :        version 1.0 available, with active improvements  Rain Gauge Data :                                  online; new version in development  Planning and Engineering Tool :                    offline; new version in developemnt  Homeowner's Tool :                                 online; new version in development", 
             "title": "Project Status"
         }, 
         {
-            "location": "/#regional-sewer-infrastructure-rsi-products", 
+            "location": "/frontend/", 
+            "text": "Regional Sewer Infrastructure (RSI) Atlas Products\n\n\nRSI Atlas (Editor)\n\n\n\n    \nURL:\nhttp://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20\n\n    \nType\nArcGIS Online - Web Application\n\n    \nRole\nOperational/Editing\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nThe RSI Atlas (Editor) is an ArcGIS Online web application that provides full interactivity with RSI Operational Data in an attrative user interface (UI), including editing, location-based querying, and the creation of graphic data summaries using available data. The implementation of additional analysis functionality, such as network tracing, is planned.\n\n\nRSI Atlas (Public)\n\n\n\n    \nURL:\nnone\n\n    \nType\nArcGIS Online - Web Application\n\n    \nRole\nPublic Viewing\n\n    \nAccess\nPublic\n\n\n\n\n\nNote: the scope of the publicly visible of regional sewer data products has not been determined yet. For now, data is limited to the RSI Atlas (Editor) version only, which can only be accessed with AlcoGIS Login \n 3RWW Group credentials.\n\n\n\n\n\nRegional Green Infrastructure (RGI) Atlas Products\n\n\nRGI Atlas (Editor)\n\n\n\n    \nURL\nhttp://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9\n\n    \nType\nArcGIS Online - Web Application\n\n    \nRole\nOperational/Editing\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nThe RGI Atlas (Editor) is an ArcGIS Online web application that provides full interactivity with RGI Operational Data in an attrative user interface (UI), including editing, location-based querying, and the creation of graphic data summaries using available data. As the data and data model is improved (e.g., project cost), additional querying and summary tools will be implemented.\n\n\nThis product requires AlcoGIS Login \n 3RWW Group access credentials to modify.\n\n\nRGI Atlas (Public)\n\n\n\n    \nURL:\nhttp://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117\n\n    \nType\nArcGIS Online - Web Application\n\n    \nRole\nPublic Viewing\n\n    \nAccess\nPublic\n\n\n\n\n\nThe RGI Atlas (Public) is an ArcGIS Online web application that provides interactivity with RGI Partner Data in an attrative user interface (UI). This includes location-based querying and the creation of graphic data summaries using available data. Editing is not implemented. As the data and data model is improved (e.g., project cost), additional querying and summary tools will be implemented.\n\n\nThis product requires AlcoGIS Login \n 3RWW Group access credentials to modify.", 
+            "title": "Atlases"
+        }, 
+        {
+            "location": "/frontend/#regional-sewer-infrastructure-rsi-atlas-products", 
             "text": "", 
-            "title": "Regional Sewer Infrastructure (RSI) Products"
+            "title": "Regional Sewer Infrastructure (RSI) Atlas Products"
         }, 
         {
-            "location": "/#operationalediting-products", 
-            "text": "RSI Atlas (Editor)  \n     URL: http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20 \n     Type ArcGIS Online - Web Application \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RSI Map (Editor)  \n     URL: http://arcg.is/1PXweVa \n     Type ArcGIS Online - Web Map \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RSI Operational Data (Editor)  ...", 
-            "title": "Operational/Editing Products"
+            "location": "/frontend/#rsi-atlas-editor", 
+            "text": "URL: http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=d52b7d07014f43b88554a6a51a8abe20 \n     Type ArcGIS Online - Web Application \n     Role Operational/Editing \n     Access Restricted via AlcoGIS Login  &  3RWW Group   The RSI Atlas (Editor) is an ArcGIS Online web application that provides full interactivity with RSI Operational Data in an attrative user interface (UI), including editing, location-based querying, and the creation of graphic data summaries using available data. The implementation of additional analysis functionality, such as network tracing, is planned.", 
+            "title": "RSI Atlas (Editor)"
         }, 
         {
-            "location": "/#public-products", 
-            "text": "RSI Atlas (Public)  ...  RSI Web Map (Public)  ...  RSI Partner Data (Public)  ...", 
-            "title": "Public Products"
+            "location": "/frontend/#rsi-atlas-public", 
+            "text": "URL: none \n     Type ArcGIS Online - Web Application \n     Role Public Viewing \n     Access Public   Note: the scope of the publicly visible of regional sewer data products has not been determined yet. For now, data is limited to the RSI Atlas (Editor) version only, which can only be accessed with AlcoGIS Login   3RWW Group credentials.", 
+            "title": "RSI Atlas (Public)"
         }, 
         {
-            "location": "/#regional-green-infrastructure-rgi-products", 
+            "location": "/frontend/#regional-green-infrastructure-rgi-atlas-products", 
             "text": "", 
-            "title": "Regional Green Infrastructure (RGI) Products"
+            "title": "Regional Green Infrastructure (RGI) Atlas Products"
         }, 
         {
-            "location": "/#operationalediting-products_1", 
-            "text": "RGI Atlas (Editor)  \n     URL http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9 \n     Type ArcGIS Online - Web Application \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RGI Web Map (Editor)  \n     URL http://arcg.is/1PXu73G \n     Type ArcGIS Online - Web Map \n     Access Restricted via AlcoGIS Login  &  3RWW Group   RGI Operational Data (Editor)  ...", 
-            "title": "Operational/Editing Products"
+            "location": "/frontend/#rgi-atlas-editor", 
+            "text": "URL http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=ef7dc350ac004686a95c1b07054678d9 \n     Type ArcGIS Online - Web Application \n     Role Operational/Editing \n     Access Restricted via AlcoGIS Login  &  3RWW Group   The RGI Atlas (Editor) is an ArcGIS Online web application that provides full interactivity with RGI Operational Data in an attrative user interface (UI), including editing, location-based querying, and the creation of graphic data summaries using available data. As the data and data model is improved (e.g., project cost), additional querying and summary tools will be implemented.  This product requires AlcoGIS Login   3RWW Group access credentials to modify.", 
+            "title": "RGI Atlas (Editor)"
         }, 
         {
-            "location": "/#public-products_1", 
-            "text": "RGI Atlas (Public)  \n     URL: http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117 \n     Type ArcGIS Online - Web Application \n     Access Public   RGI Web Map (Public)  \n     URL http://arcg.is/1PXtneX Type ArcGIS Online - Web Map \n     Access Public   RGI Partner Data (Public)  \n     URL http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0 \n     Type ArcGIS Online - Feature Layer \n     Access Public", 
-            "title": "Public Products"
+            "location": "/frontend/#rgi-atlas-public", 
+            "text": "URL: http://alcogis.maps.arcgis.com/apps/webappviewer/index.html?id=bd350e6dc31e42048a0a38ab91767117 \n     Type ArcGIS Online - Web Application \n     Role Public Viewing \n     Access Public   The RGI Atlas (Public) is an ArcGIS Online web application that provides interactivity with RGI Partner Data in an attrative user interface (UI). This includes location-based querying and the creation of graphic data summaries using available data. Editing is not implemented. As the data and data model is improved (e.g., project cost), additional querying and summary tools will be implemented.  This product requires AlcoGIS Login   3RWW Group access credentials to modify.", 
+            "title": "RGI Atlas (Public)"
+        }, 
+        {
+            "location": "/backend/", 
+            "text": "Maps and Services supporting the Regional Sewer Infrastructure (RSI) Atlas Products\n\n\nThese ArcGIS Online web map and service layers provide the configured map and geodata, respectively, that are used in the RSI Atlas products.\n\n\nRSI Map (Editor)\n\n\n\n    \nURL:\nhttp://arcg.is/1PXweVa\n\n    \nType\nArcGIS Online - Web Map\n\n    \nRole\nOperational/Editing\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nThe RSI Map (Editor) is used to configure the availability and display of \nRSI Operational Data (Editor)\n geodata within the \nRSI Atlas (Editor)\n ArcGIS Online Web Application. Changes to map symbols, layouts, and other configuration settings in this map directly affect the display and functionality of the data in the \nRSI Atlas (Editor)\n.\n\n\nRSI Operational Data (Editor)\n\n\n\n    \nURL (point data):\n http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWWRSIFL/FeatureServer/0\n\n    \nURL (line data):\n http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWWRSIFL/FeatureServer/1\n\n    \nURL (tiles):\nhttp://tiles.arcgis.com/tiles/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWWRSITL/MapServer\n\n    \nType\nArcGIS Online - Feature Layers and Tile Layer\n\n    \nRole\nOperational/Editing\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nThe RSI Operational Data (Editor) is the feature service referenced by the \nRSI Map (Editor)\n and \nRSI Atlas (Editor)\n.  Currently, this data is an import of the previous OneOverallMap (OOM) data. For the next iteration, it will be provided in using extended version of the Esri Local Government Information Model (LGIM) data model, which better supports geoprocessing and interoperability.\n\n\nRSI Web Map (Public)\n\n\n\n    \nURL:\nnone\n\n    \nType\nArcGIS Online - Web Map\n\n    \nRole\nPublic Viewing\n\n    \nAccess\nPublic\n\n\n\n\n\nNote: the scope of the publicly visible of regional sewer data products has not been determined yet. For now, data is limited to the operational/editing versions only, which can only be accessed with AlcoGIS Login \n 3RWW Group credentials.\n\n\nRSI Partner Data (Public)\n\n\n\n    \nURL:\nnone\n\n    \nType\nArcGIS Online - Feature Layer\n\n    \nRole\nPublic Viewing\n\n    \nAccess\nPublic\n\n\n\n\n\nNote: the scope of the publicly visible of regional sewer data products has not been determined yet. For now, data is limited to the operational/editing versions only, which can only be accessed with AlcoGIS Login \n 3RWW Group credentials.\n\n\n\n\n\nMaps and Services supporting the Regional Green Infrastructure (RGI) Atlas Products\n\n\nThese ArcGIS Online web map and service layers provide the configured map and geodata, respectively, that are used in the RGI Atlas products.\n\n\nRGI Web Map (Editor)\n\n\n\n    \nURL\nhttp://arcg.is/1PXu73G\n\n    \nType\nArcGIS Online - Web Map\n\n    \nAccess\nRestricted via AlcoGIS Login \n&\n 3RWW Group\n\n\n\n\n\nThe RGI Map (Editor) is used to configure the availability and display of \nRGI Operational Data (Editor)\n geodata within the \nRGI Atlas (Editor)\n ArcGIS Online Web Application. Changes to map symbols, layouts, and other configuration settings in this map directly affect the display and functionality of the data in the \nRGI Atlas (Editor)\n.\n\n\nRGI Operational Data (Editor)\n\n\nFor now, see \nRGI Partner Data (Public)\n.\n\n\nRGI Web Map (Public)\n\n\n\n    \nURL\nhttp://arcg.is/1PXtneX\nType\nArcGIS Online - Web Map\n\n    \nRole\nPublic Viewing\n\n    \nAccess\nPublic\n\n\n\n\n\nThe RGI Map (Public) is used to configure the availability and display of \nRGI Partner Data (Public)\n geodata within the \nRGI Atlas (Public)\n ArcGIS Online Web Application; specifically, publicly visible attributes are limited via this product. Administrative changes to map symbols, layouts, and other configuration settings in this map directly affect the display and functionality of the data in the \nRGI Atlas (Public)\n. This product requires AlcoGIS Login \n 3RWW Group access credentials to modify.\n\n\nRGI Partner Data (Public)\n\n\n\n    \nURL\nhttp://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0\n\n    \nType\nArcGIS Online - Feature Layer\n\n    \nRole\nPublic Viewing\n\n    \nAccess\nPublic\n\n\n\n\n\nThe RGI Partner Data (Public) is the feature service referenced by the \nRGI Map (Public)\n and \nRSI Atlas (Public)\n. It is a link to the data only; it requires AlcoGIS Login \n 3RWW Group access credentials to modify.", 
+            "title": "Maps & Services"
+        }, 
+        {
+            "location": "/backend/#maps-and-services-supporting-the-regional-sewer-infrastructure-rsi-atlas-products", 
+            "text": "These ArcGIS Online web map and service layers provide the configured map and geodata, respectively, that are used in the RSI Atlas products.", 
+            "title": "Maps and Services supporting the Regional Sewer Infrastructure (RSI) Atlas Products"
+        }, 
+        {
+            "location": "/backend/#rsi-map-editor", 
+            "text": "URL: http://arcg.is/1PXweVa \n     Type ArcGIS Online - Web Map \n     Role Operational/Editing \n     Access Restricted via AlcoGIS Login  &  3RWW Group   The RSI Map (Editor) is used to configure the availability and display of  RSI Operational Data (Editor)  geodata within the  RSI Atlas (Editor)  ArcGIS Online Web Application. Changes to map symbols, layouts, and other configuration settings in this map directly affect the display and functionality of the data in the  RSI Atlas (Editor) .", 
+            "title": "RSI Map (Editor)"
+        }, 
+        {
+            "location": "/backend/#rsi-operational-data-editor", 
+            "text": "URL (point data):  http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWWRSIFL/FeatureServer/0 \n     URL (line data):  http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWWRSIFL/FeatureServer/1 \n     URL (tiles): http://tiles.arcgis.com/tiles/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWWRSITL/MapServer \n     Type ArcGIS Online - Feature Layers and Tile Layer \n     Role Operational/Editing \n     Access Restricted via AlcoGIS Login  &  3RWW Group   The RSI Operational Data (Editor) is the feature service referenced by the  RSI Map (Editor)  and  RSI Atlas (Editor) .  Currently, this data is an import of the previous OneOverallMap (OOM) data. For the next iteration, it will be provided in using extended version of the Esri Local Government Information Model (LGIM) data model, which better supports geoprocessing and interoperability.", 
+            "title": "RSI Operational Data (Editor)"
+        }, 
+        {
+            "location": "/backend/#rsi-web-map-public", 
+            "text": "URL: none \n     Type ArcGIS Online - Web Map \n     Role Public Viewing \n     Access Public   Note: the scope of the publicly visible of regional sewer data products has not been determined yet. For now, data is limited to the operational/editing versions only, which can only be accessed with AlcoGIS Login   3RWW Group credentials.", 
+            "title": "RSI Web Map (Public)"
+        }, 
+        {
+            "location": "/backend/#rsi-partner-data-public", 
+            "text": "URL: none \n     Type ArcGIS Online - Feature Layer \n     Role Public Viewing \n     Access Public   Note: the scope of the publicly visible of regional sewer data products has not been determined yet. For now, data is limited to the operational/editing versions only, which can only be accessed with AlcoGIS Login   3RWW Group credentials.", 
+            "title": "RSI Partner Data (Public)"
+        }, 
+        {
+            "location": "/backend/#maps-and-services-supporting-the-regional-green-infrastructure-rgi-atlas-products", 
+            "text": "These ArcGIS Online web map and service layers provide the configured map and geodata, respectively, that are used in the RGI Atlas products.", 
+            "title": "Maps and Services supporting the Regional Green Infrastructure (RGI) Atlas Products"
+        }, 
+        {
+            "location": "/backend/#rgi-web-map-editor", 
+            "text": "URL http://arcg.is/1PXu73G \n     Type ArcGIS Online - Web Map \n     Access Restricted via AlcoGIS Login  &  3RWW Group   The RGI Map (Editor) is used to configure the availability and display of  RGI Operational Data (Editor)  geodata within the  RGI Atlas (Editor)  ArcGIS Online Web Application. Changes to map symbols, layouts, and other configuration settings in this map directly affect the display and functionality of the data in the  RGI Atlas (Editor) .", 
+            "title": "RGI Web Map (Editor)"
+        }, 
+        {
+            "location": "/backend/#rgi-operational-data-editor", 
+            "text": "For now, see  RGI Partner Data (Public) .", 
+            "title": "RGI Operational Data (Editor)"
+        }, 
+        {
+            "location": "/backend/#rgi-web-map-public", 
+            "text": "URL http://arcg.is/1PXtneX Type ArcGIS Online - Web Map \n     Role Public Viewing \n     Access Public   The RGI Map (Public) is used to configure the availability and display of  RGI Partner Data (Public)  geodata within the  RGI Atlas (Public)  ArcGIS Online Web Application; specifically, publicly visible attributes are limited via this product. Administrative changes to map symbols, layouts, and other configuration settings in this map directly affect the display and functionality of the data in the  RGI Atlas (Public) . This product requires AlcoGIS Login   3RWW Group access credentials to modify.", 
+            "title": "RGI Web Map (Public)"
+        }, 
+        {
+            "location": "/backend/#rgi-partner-data-public", 
+            "text": "URL http://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/3RWW_Atlas_Green_Infrastructure_Inventory/FeatureServer/0 \n     Type ArcGIS Online - Feature Layer \n     Role Public Viewing \n     Access Public   The RGI Partner Data (Public) is the feature service referenced by the  RGI Map (Public)  and  RSI Atlas (Public) . It is a link to the data only; it requires AlcoGIS Login   3RWW Group access credentials to modify.", 
+            "title": "RGI Partner Data (Public)"
+        }, 
+        {
+            "location": "/guide_rsi/", 
+            "text": "The Regional Sewer Infrastructre (RSI) Atlas User Guide\n\n\nNote: this documentation is in active development\n\n\nInterface\n\n\nMap Controls\n\n\nBy default, drag the map to pan; use a scroll wheel if available to zoom.\n\n\nZoom buttons\n are located in the upper left-hand corner.\n\n\nA \nDefault extent\n button will reset the map to it's inital view.\n\n\nA \nLocate me\n button will set the map to your location, if your browser and/or device has the necessary geo-location capabilities enabled (these vary by device).\n\n\nMeasurement Widget\n\n\nLocated in the top-right corner, the \nMeasurement\n widget allows you to quickly measure distance and/or area on the map.\n\n\nThis tool can also quickly identify the longitude and latitude of a point placed on the map.\n\n\nPrinting Widget\n\n\nLocated in the top-right corner, the \nPrinting\n widget allows you to print your current map view to a pdf or one of several image formats.\n\n\nEditing Widget\n\n\nLocated in the top-right corner, the \nEditing\n widget at this time allows you to add annotation markers to the map and make notes.\n\n\nIn future iterations of this application, this widget will also enable direct editing of the sewer network.\n\n\nInformation Window\n\n\nThe left side of the screen contains a collapsible window that displays several types of information or options for configuring the map.\n\n\n\n\nAbout\n: Provides an overview of the application.\n\n\nLegend\n: Summarizes the symbols for features shown on the map currently.\n\n\nMap Layers\n: All data layers available for viewing on the map, including RSI data.\n\n\nBasemap Gallery\n: Available basemaps for display underneath the Map Layers.\n\n\nSelect Features (under 'more')\n: Provides the ability to filter features from the RSI data. See 'Analyzing' below for more information.\n\n\nSummarize Features (under 'more')\n: Provides the ability to generate reports on the RSI data. See 'Analyzing' below for more information.\n\n\n\n\nCommon Tasks\n\n\nChanging Map Layers\n\n\nA number of data layers are available for viewing on the map in addition to the RSI data. This includes several map services provided by Allegheny County, which provide information ranging from parcel boundaries to recent aerial imagery. The user can opt to turn layers and sub-layers on or off as needed.\n\n\nChanging Basemaps\n\n\nThe user can optionally select the base map shown underneath the map layers. By default, this is set to a global imagery map from Esri; however, other basemap options such as 'Dark Canvas' may provide the user with higher legibility and clarity for printing.\n\n\nFinding Locations\n\n\n\"Find address or place\"\n\n\nAC EAMS AP and ST Locator: a geolocation service provided by Allegheny County, which uses up-to-date addressing maintained for emergency services.\nEsri World Geocoder: a geolocation service with worldwide coverage; accuracy may be\n\n\nFiltering Features\n\n\nSelect Projects (under 'more')\n\n\nAdding Annotations\n\n\nEditing Features\n\n\nTracing the Network\n\n\nGenerating Summaries", 
+            "title": "RSI Guide"
+        }, 
+        {
+            "location": "/guide_rsi/#the-regional-sewer-infrastructre-rsi-atlas-user-guide", 
+            "text": "Note: this documentation is in active development", 
+            "title": "The Regional Sewer Infrastructre (RSI) Atlas User Guide"
+        }, 
+        {
+            "location": "/guide_rsi/#interface", 
+            "text": "", 
+            "title": "Interface"
+        }, 
+        {
+            "location": "/guide_rsi/#map-controls", 
+            "text": "By default, drag the map to pan; use a scroll wheel if available to zoom.  Zoom buttons  are located in the upper left-hand corner.  A  Default extent  button will reset the map to it's inital view.  A  Locate me  button will set the map to your location, if your browser and/or device has the necessary geo-location capabilities enabled (these vary by device).", 
+            "title": "Map Controls"
+        }, 
+        {
+            "location": "/guide_rsi/#measurement-widget", 
+            "text": "Located in the top-right corner, the  Measurement  widget allows you to quickly measure distance and/or area on the map.  This tool can also quickly identify the longitude and latitude of a point placed on the map.", 
+            "title": "Measurement Widget"
+        }, 
+        {
+            "location": "/guide_rsi/#printing-widget", 
+            "text": "Located in the top-right corner, the  Printing  widget allows you to print your current map view to a pdf or one of several image formats.", 
+            "title": "Printing Widget"
+        }, 
+        {
+            "location": "/guide_rsi/#editing-widget", 
+            "text": "Located in the top-right corner, the  Editing  widget at this time allows you to add annotation markers to the map and make notes.  In future iterations of this application, this widget will also enable direct editing of the sewer network.", 
+            "title": "Editing Widget"
+        }, 
+        {
+            "location": "/guide_rsi/#information-window", 
+            "text": "The left side of the screen contains a collapsible window that displays several types of information or options for configuring the map.   About : Provides an overview of the application.  Legend : Summarizes the symbols for features shown on the map currently.  Map Layers : All data layers available for viewing on the map, including RSI data.  Basemap Gallery : Available basemaps for display underneath the Map Layers.  Select Features (under 'more') : Provides the ability to filter features from the RSI data. See 'Analyzing' below for more information.  Summarize Features (under 'more') : Provides the ability to generate reports on the RSI data. See 'Analyzing' below for more information.", 
+            "title": "Information Window"
+        }, 
+        {
+            "location": "/guide_rsi/#common-tasks", 
+            "text": "", 
+            "title": "Common Tasks"
+        }, 
+        {
+            "location": "/guide_rsi/#changing-map-layers", 
+            "text": "A number of data layers are available for viewing on the map in addition to the RSI data. This includes several map services provided by Allegheny County, which provide information ranging from parcel boundaries to recent aerial imagery. The user can opt to turn layers and sub-layers on or off as needed.", 
+            "title": "Changing Map Layers"
+        }, 
+        {
+            "location": "/guide_rsi/#changing-basemaps", 
+            "text": "The user can optionally select the base map shown underneath the map layers. By default, this is set to a global imagery map from Esri; however, other basemap options such as 'Dark Canvas' may provide the user with higher legibility and clarity for printing.", 
+            "title": "Changing Basemaps"
+        }, 
+        {
+            "location": "/guide_rsi/#finding-locations", 
+            "text": "\"Find address or place\"  AC EAMS AP and ST Locator: a geolocation service provided by Allegheny County, which uses up-to-date addressing maintained for emergency services.\nEsri World Geocoder: a geolocation service with worldwide coverage; accuracy may be", 
+            "title": "Finding Locations"
+        }, 
+        {
+            "location": "/guide_rsi/#filtering-features", 
+            "text": "Select Projects (under 'more')", 
+            "title": "Filtering Features"
+        }, 
+        {
+            "location": "/guide_rsi/#adding-annotations", 
+            "text": "", 
+            "title": "Adding Annotations"
+        }, 
+        {
+            "location": "/guide_rsi/#editing-features", 
+            "text": "", 
+            "title": "Editing Features"
+        }, 
+        {
+            "location": "/guide_rsi/#tracing-the-network", 
+            "text": "", 
+            "title": "Tracing the Network"
+        }, 
+        {
+            "location": "/guide_rsi/#generating-summaries", 
+            "text": "", 
+            "title": "Generating Summaries"
         }
     ]
 }

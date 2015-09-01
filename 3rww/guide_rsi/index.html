@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../favicon.ico">
+        
+
+	<title>RSI Guide - 3RWW Atlas Documentation</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">3RWW Atlas Documentation</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Overview</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../frontend/">Atlases</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../backend/">Maps & Services</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">RSI Guide</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../backend/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="prev" >
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#the-regional-sewer-infrastructre-rsi-atlas-user-guide">The Regional Sewer Infrastructre (RSI) Atlas User Guide</a></li>
+        
+    
+        <li class="main "><a href="#interface">Interface</a></li>
+        
+            <li><a href="#map-controls">Map Controls</a></li>
+        
+            <li><a href="#measurement-widget">Measurement Widget</a></li>
+        
+            <li><a href="#printing-widget">Printing Widget</a></li>
+        
+            <li><a href="#editing-widget">Editing Widget</a></li>
+        
+            <li><a href="#information-window">Information Window</a></li>
+        
+    
+        <li class="main "><a href="#common-tasks">Common Tasks</a></li>
+        
+            <li><a href="#changing-map-layers">Changing Map Layers</a></li>
+        
+            <li><a href="#changing-basemaps">Changing Basemaps</a></li>
+        
+            <li><a href="#finding-locations">Finding Locations</a></li>
+        
+            <li><a href="#filtering-features">Filtering Features</a></li>
+        
+            <li><a href="#adding-annotations">Adding Annotations</a></li>
+        
+            <li><a href="#editing-features">Editing Features</a></li>
+        
+            <li><a href="#tracing-the-network">Tracing the Network</a></li>
+        
+            <li><a href="#generating-summaries">Generating Summaries</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="the-regional-sewer-infrastructre-rsi-atlas-user-guide">The Regional Sewer Infrastructre (RSI) Atlas User Guide</h1>
+<p><em>Note: this documentation is in active development</em></p>
+<h1 id="interface">Interface</h1>
+<h2 id="map-controls">Map Controls</h2>
+<p>By default, drag the map to pan; use a scroll wheel if available to zoom.</p>
+<p><strong>Zoom buttons</strong> are located in the upper left-hand corner.</p>
+<p>A <strong>Default extent</strong> button will reset the map to it's inital view.</p>
+<p>A <strong>Locate me</strong> button will set the map to your location, if your browser and/or device has the necessary geo-location capabilities enabled (these vary by device).</p>
+<h2 id="measurement-widget">Measurement Widget</h2>
+<p>Located in the top-right corner, the <strong>Measurement</strong> widget allows you to quickly measure distance and/or area on the map.</p>
+<p>This tool can also quickly identify the longitude and latitude of a point placed on the map.</p>
+<h2 id="printing-widget">Printing Widget</h2>
+<p>Located in the top-right corner, the <strong>Printing</strong> widget allows you to print your current map view to a pdf or one of several image formats.</p>
+<h2 id="editing-widget">Editing Widget</h2>
+<p>Located in the top-right corner, the <strong>Editing</strong> widget at this time allows you to add annotation markers to the map and make notes.</p>
+<p>In future iterations of this application, this widget will also enable direct editing of the sewer network.</p>
+<h2 id="information-window">Information Window</h2>
+<p>The left side of the screen contains a collapsible window that displays several types of information or options for configuring the map.</p>
+<ul>
+<li><strong>About</strong>: Provides an overview of the application.</li>
+<li><strong>Legend</strong>: Summarizes the symbols for features shown on the map currently.</li>
+<li><strong>Map Layers</strong>: All data layers available for viewing on the map, including RSI data.</li>
+<li><strong>Basemap Gallery</strong>: Available basemaps for display underneath the Map Layers.</li>
+<li><strong>Select Features (under 'more')</strong>: Provides the ability to filter features from the RSI data. See 'Analyzing' below for more information.</li>
+<li><strong>Summarize Features (under 'more')</strong>: Provides the ability to generate reports on the RSI data. See 'Analyzing' below for more information.</li>
+</ul>
+<h1 id="common-tasks">Common Tasks</h1>
+<h2 id="changing-map-layers">Changing Map Layers</h2>
+<p>A number of data layers are available for viewing on the map in addition to the RSI data. This includes several map services provided by Allegheny County, which provide information ranging from parcel boundaries to recent aerial imagery. The user can opt to turn layers and sub-layers on or off as needed.</p>
+<h2 id="changing-basemaps">Changing Basemaps</h2>
+<p>The user can optionally select the base map shown underneath the map layers. By default, this is set to a global imagery map from Esri; however, other basemap options such as 'Dark Canvas' may provide the user with higher legibility and clarity for printing.</p>
+<h2 id="finding-locations">Finding Locations</h2>
+<p>"Find address or place"</p>
+<p>AC EAMS AP and ST Locator: a geolocation service provided by Allegheny County, which uses up-to-date addressing maintained for emergency services.
+Esri World Geocoder: a geolocation service with worldwide coverage; accuracy may be</p>
+<h2 id="filtering-features">Filtering Features</h2>
+<p>Select Projects (under 'more')</p>
+<h2 id="adding-annotations">Adding Annotations</h2>
+<h2 id="editing-features">Editing Features</h2>
+<h2 id="tracing-the-network">Tracing the Network</h2>
+<h2 id="generating-summaries">Generating Summaries</h2></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
