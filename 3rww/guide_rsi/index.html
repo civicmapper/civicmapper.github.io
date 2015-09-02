@@ -7,15 +7,15 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <link rel="shortcut icon" href="../img/favicon.ico">
         
 
 	<title>RSI Guide - 3RWW Atlas Documentation</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -33,7 +33,6 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
-            
             <!-- Expander button -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -41,7 +40,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
 
             <!-- Main title -->
             <a class="navbar-brand" href="..">3RWW Atlas Documentation</a>
@@ -49,55 +47,47 @@
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
             
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="..">Overview</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../frontend/">Atlases</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../backend/">Maps & Services</a>
-                    </li>
-                
-                
-                
-                    <li class="active">
-                        <a href="./">RSI Guide</a>
-                    </li>
-                
-                
-                </ul>
             
+                <li >
+                    <a href="..">Overview</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../frontend/">Atlases</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../backend/">Maps & Services</a>
+                </li>
+            
+            
+            
+                <li class="active">
+                    <a href="./">RSI Guide</a>
+                </li>
+            
+            
+            </ul>
 
+            <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
+                <li >
+                    <a rel="next" href="../backend/">
+                        <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                
-                    <li >
-                        <a rel="next" href="../backend/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                
+                <li class="disabled">
+                    <a rel="prev" >
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
                 
             </ul>
         </div>
@@ -105,8 +95,7 @@
 </div>
 
         <div class="container">
-            
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
         <li class="main active"><a href="#the-regional-sewer-infrastructre-rsi-atlas-user-guide">The Regional Sewer Infrastructre (RSI) Atlas User Guide</a></li>
@@ -114,13 +103,7 @@
     
         <li class="main "><a href="#interface">Interface</a></li>
         
-            <li><a href="#map-controls">Map Controls</a></li>
-        
-            <li><a href="#measurement-widget">Measurement Widget</a></li>
-        
-            <li><a href="#printing-widget">Printing Widget</a></li>
-        
-            <li><a href="#editing-widget">Editing Widget</a></li>
+            <li><a href="#map-window">Map Window</a></li>
         
             <li><a href="#information-window">Information Window</a></li>
         
@@ -131,104 +114,183 @@
         
             <li><a href="#changing-basemaps">Changing Basemaps</a></li>
         
-            <li><a href="#finding-locations">Finding Locations</a></li>
+            <li><a href="#searching-for-locations">Searching for Locations</a></li>
         
-            <li><a href="#filtering-features">Filtering Features</a></li>
+            <li><a href="#identifying-coordinates">Identifying Coordinates</a></li>
+        
+            <li><a href="#using-the-attribute-table">Using the Attribute Table</a></li>
+        
+            <li><a href="#querying-features">Querying Features</a></li>
+        
+            <li><a href="#filtering-map-features">Filtering Map Features</a></li>
+        
+            <li><a href="#generating-summaries-of-map-features">Generating Summaries of Map Features</a></li>
         
             <li><a href="#adding-annotations">Adding Annotations</a></li>
         
             <li><a href="#editing-features">Editing Features</a></li>
         
-            <li><a href="#tracing-the-network">Tracing the Network</a></li>
-        
-            <li><a href="#generating-summaries">Generating Summaries</a></li>
+            <li><a href="#tracing-the-wastewater-network">Tracing the Wastewater Network</a></li>
         
     
     </ul>
 </div></div>
-                <div class="col-md-9" role="main">
+            <div class="col-md-9" role="main">
 
 <h1 id="the-regional-sewer-infrastructre-rsi-atlas-user-guide">The Regional Sewer Infrastructre (RSI) Atlas User Guide</h1>
-<p><em>Note: this documentation is in active development</em></p>
+<p><em>Note: this documentation is in active development</em>
+<br><br><hr></p>
 <h1 id="interface">Interface</h1>
-<h2 id="map-controls">Map Controls</h2>
+<p>&lt;&lt;&lt; Diagram of web app window to be inserted &gt;&gt;&gt;</p>
+<p><em>explanation of above diagram</em></p>
+<p><em>Some text about widgets</em></p>
+<hr>
+
+<h2 id="map-window">Map Window</h2>
 <p>By default, drag the map to pan; use a scroll wheel if available to zoom.</p>
-<p><strong>Zoom buttons</strong> are located in the upper left-hand corner.</p>
-<p>A <strong>Default extent</strong> button will reset the map to it's inital view.</p>
-<p>A <strong>Locate me</strong> button will set the map to your location, if your browser and/or device has the necessary geo-location capabilities enabled (these vary by device).</p>
-<h2 id="measurement-widget">Measurement Widget</h2>
-<p>Located in the top-right corner, the <strong>Measurement</strong> widget allows you to quickly measure distance and/or area on the map.</p>
+<p>Three buttons located in the top left corner of the map window provide additional control:</p>
+<p><strong>Zoom buttons</strong> zoom the map near and far.</p>
+<p>The <strong>Home Button</strong> resets the map to its inital zoom and location</p>
+<p>The <strong>My Location</strong> button will set the map to your location, if your browser and/or device has the necessary geo-location capabilities enabled. These capabilities vary by device; on a device with GPS or cellular location services (e.g. a smartphone), the location can be fairly accurate.</p>
+<p>Three additional widgets are located in the top-right corner of the map window:</p>
+<h3 id="measurement"><em>Measurement</em></h3>
+<p>This widget allows you to quickly measure distance and/or area on the map.</p>
 <p>This tool can also quickly identify the longitude and latitude of a point placed on the map.</p>
-<h2 id="printing-widget">Printing Widget</h2>
-<p>Located in the top-right corner, the <strong>Printing</strong> widget allows you to print your current map view to a pdf or one of several image formats.</p>
-<h2 id="editing-widget">Editing Widget</h2>
-<p>Located in the top-right corner, the <strong>Editing</strong> widget at this time allows you to add annotation markers to the map and make notes.</p>
-<p>In future iterations of this application, this widget will also enable direct editing of the sewer network.</p>
+<h3 id="printing"><em>Printing</em></h3>
+<p>This widget allows you to print your current map view to a pdf or one of several image formats.</p>
+<h3 id="annotation"><em>Annotation</em></h3>
+<p>This widget allows you to add annotation markers to the map and make notes.</p>
+<p>In future iterations of this application, this widget will also enable direct editing of the sewer network and will be renamed the <em>Editing</em> widget.</p>
+<hr>
+
 <h2 id="information-window">Information Window</h2>
-<p>The left side of the screen contains a collapsible window that displays several types of information or options for configuring the map.</p>
-<ul>
-<li><strong>About</strong>: Provides an overview of the application.</li>
-<li><strong>Legend</strong>: Summarizes the symbols for features shown on the map currently.</li>
-<li><strong>Map Layers</strong>: All data layers available for viewing on the map, including RSI data.</li>
-<li><strong>Basemap Gallery</strong>: Available basemaps for display underneath the Map Layers.</li>
-<li><strong>Select Features (under 'more')</strong>: Provides the ability to filter features from the RSI data. See 'Analyzing' below for more information.</li>
-<li><strong>Summarize Features (under 'more')</strong>: Provides the ability to generate reports on the RSI data. See 'Analyzing' below for more information.</li>
-</ul>
+<p>The left side of the screen contains a collapsible window that displays several types of information and/or options for configuring the map. Along the top of this window you can find icons for the following 'widgets':</p>
+<h3 id="about"><em>About</em></h3>
+<p>Provides an overview of the application.</p>
+<h3 id="legend"><em>Legend</em></h3>
+<p>Summarizes the symbols for features currentl shown on the map.</p>
+<h3 id="map-layers"><em>Map Layers</em></h3>
+<p>All data layers available for viewing on the map, including RSI data.</p>
+<h3 id="basemap-gallery"><em>Basemap Gallery</em></h3>
+<p>Available basemaps for display underneath the Map Layers.</p>
+<h3 id="select-features"><em>Select Features</em></h3>
+<p>(under the <strong>more</strong> icon) Provides the ability to filter features from the RSI data. See 'Filtering Features' below for more information.</p>
+<h3 id="summarize-features"><em>Summarize Features</em></h3>
+<p>Provides the ability to generate reports on the RSI data. See 'Generating Summaries' below for more information.</p>
+<p><br><br><hr></p>
 <h1 id="common-tasks">Common Tasks</h1>
 <h2 id="changing-map-layers">Changing Map Layers</h2>
-<p>A number of data layers are available for viewing on the map in addition to the RSI data. This includes several map services provided by Allegheny County, which provide information ranging from parcel boundaries to recent aerial imagery. The user can opt to turn layers and sub-layers on or off as needed.</p>
+<p>Clicking the <strong><em>Map Layers</em></strong> widget displays all layers shown on the map (except for the basemap)</p>
+<p>A number of data layers are available for viewing on the map in addition to the RSI data. This includes several map services provided by Allegheny County, which provide information ranging from parcel boundaries to recent aerial imagery. Regional flow monitoring points and their estimated catchment areas are also shown.</p>
+<p>The user can opt to turn layers and sub-layers on or off as needed by clicking the checkbox to the right of each item.</p>
+<p>Clicking the down arrow on the right side of a layer displays a context menu, which includes the following functions:</p>
+<ul>
+<li><em>Zoom to:</em>—Setsthe map extent to the extent of the layer.</li>
+<li><em>Transparency:</em> Sets the transparency for the layer.</li>
+<li><em>Move up:</em>—Moves the layer one level up.</li>
+<li><em>Move down:</em>—Moves the layer one level down.</li>
+<li><em>Open attribute table:</em>—Opens the attribute table for the feature layer. This allows the user to view all attributes for features, and provides some other filtering and export abilities described further below.</li>
+<li><em>Description / Show Item Details:</em>—Opens the service description or the item details page for the service or the item associated with the layer, if available. This page includes information for linking to the feature service or downloading a static version of the data in one of several spatial or non-spatial formats.</li>
+</ul>
 <h2 id="changing-basemaps">Changing Basemaps</h2>
+<p>Clicking the <strong><em>Basemap Gallery</em></strong> widget displays all available basemaps.</p>
 <p>The user can optionally select the base map shown underneath the map layers. By default, this is set to a global imagery map from Esri; however, other basemap options such as 'Dark Canvas' may provide the user with higher legibility and clarity for printing.</p>
-<h2 id="finding-locations">Finding Locations</h2>
-<p>"Find address or place"</p>
-<p>AC EAMS AP and ST Locator: a geolocation service provided by Allegheny County, which uses up-to-date addressing maintained for emergency services.
-Esri World Geocoder: a geolocation service with worldwide coverage; accuracy may be</p>
-<h2 id="filtering-features">Filtering Features</h2>
-<p>Select Projects (under 'more')</p>
+<p>Clicking one of the basemap thumbnails sets it as the active basemap for the application. Click the X button in the upper right corner of the Basemap Gallery window to close it.</p>
+<h2 id="searching-for-locations">Searching for Locations</h2>
+<p>The Search widget is located in the upper left hand corner of the map; it enables end users to find locations on the map. Use it to enter:
+<em> Coordinates (Longitude, Latitude)
+</em> Addressed (e.g., 3901 Penn Avenue, Pittsburgh, PA 15224)
+* Place Names (e.g., Pittsburgh)</p>
+<p>The arrow on the left side of the search box allows you to use a specific geocoding service:</p>
+<ul>
+<li><em>AC EAMS AP and ST Locator:</em> a geolocation service provided by Allegheny County, which uses up-to-date addressing maintained by the County for supporting 911 emergency service dispatching.</li>
+<li><em>Esri World Geocoder:</em> a geolocation service with worldwide coverage that includes place names and some points of interest; address accuracy in Allegheny County may not be as refined as the AC EAMS AP and ST Locator.</li>
+</ul>
+<p>By default, searches will use both services ('All') to find the location you're looking for.</p>
+<h2 id="identifying-coordinates">Identifying Coordinates</h2>
+<p>There are two ways to quickly identify real-world coordinates in the application:</p>
+<ul>
+<li>
+<p>The coordinates of the location of the mouse on the map are displayed in real-time in the bottom left-hand corner of the map window. A button to the left of these values acts as a toggle; when clicked, it allows the user to then move to a point on the map, click it, and see the coordinates for that point in the lower left. The coordinates will not update until the user clicks on the map again or toggles the button.</p>
+</li>
+<li>
+<p>The <strong><em>Measurement</em></strong> widget, located in the top right corner of the map window, provides the ability to place a temporary flag on the map. The coordinates are reported for this flag in the Measurement widget window.</p>
+</li>
+</ul>
+<p>Note that the RSI Atlas displays data in the WGS 1984 Web Mercator Auxilary Sphere coordinate reference system (CRS). All coordinates reported in the application are in this CRS.</p>
+<h2 id="using-the-attribute-table">Using the Attribute Table</h2>
+<p>An <em>Attribute Table</em> displays a tabular view of layer attributes at the bottom of the map window.</p>
+<h3 id="opening-the-table">Opening the table</h3>
+<p>The attribute table can be opened two ways:</p>
+<ul>
+<li>clicking the arrow/tab at the bottom of the map window</li>
+<li>thought the <strong><em>Map Layers</em></strong> widget in the information window, clicking the down arrow on the right side of a layer, which will open a context menu with an <em>Open attribute table</em> option.</li>
+</ul>
+<p>When more than one layer's attributes display, multiple tabs automatically generate in the attribute panel allowing you to switch among the attribute tables.</p>
+<h3 id="using-the-table">Using the table</h3>
+<p><em>Clicking a record</em> in the table selects it and highlights the corresponding feature in the map with the color specified in the Attribute Table widget configuration window. Press the Shift or Ctrl key to select multiple records.</p>
+<p>By <em>Clicking a field heading</em>, the table will sort the records by the field.</p>
+<p>Buttons at the top of table help manage the selection and the way the table displays:</p>
+<ul>
+<li>An <em>Options</em> menu provides advanced selection, filtering, and exporting options. More on this later.</li>
+<li><em>Zoom to selected:</em> features—Clicking Zoom to resets the map extent to center around selected features.</li>
+<li><em>Clear selections:</em>—Clicking the Clear Selection button clears all selections.</li>
+<li><em>Refresh</em>—Clicking Refresh refreshes the tables.</li>
+<li><em>Show or hide columns:</em>—Clicking the <strong>+</strong> icon on the right side of the Attribute Table panel opens the field visibility window. Check or uncheck the fields to set them to visible or invisible in the table.
+Number of selected records—Shown on the lower left of the table. Can also be accessed from the <em>Options</em> menu.</li>
+</ul>
+<h3 id="selecting-and-filtering-records-and-features">Selecting and Filtering records and features</h3>
+<p>Throught the <em>Options</em> menu on the table, you can select or filter records in the table, which in turn highlights or filters, respectively, the corresponding features on the map. The available options</p>
+<ul>
+<li><em>Show Selected Records:</em> Only displays selected records. By hiding records you haven't selected, it may be easier to visually browse the table.</li>
+<li><em>Show Related Records:</em> <em>Note: the RSI does not currently have related tables.</em> Displays related records if a selected record has related table.</li>
+<li><em>Filter:</em> Allows the user to specify a query that will filter records in the table.</li>
+<li><em>Filter by Map Extent:</em> This option only displays attributes for features within the current map extent.</li>
+</ul>
+<h3 id="exporting-records-from-the-table">Exporting records from the table</h3>
+<p>The Options menu provides an <em>Export to CSV</em> tool, which creates a file that can be opened in Microsoft Excel, other spreadsheet software, or a text editor.</p>
+<p>If records are selected, only the selected records are exported. If no records are selected, all the records are exported.</p>
+<h2 id="querying-features">Querying Features</h2>
+<p>The <strong><em>Select Features</em></strong> widget displays a list of predefined queries that you can run to highlight specific features on the map and simultaneously highlight the corresponding records in the attribute table.</p>
+<p>Two options are provided when running queries:</p>
+<ul>
+<li><em>Use spatial filter:</em> One of two spatial filters is applied on top of the query definition.<ul>
+<li><em>Use current map extent:</em> Only features falling within the current map extent and meeting the query definition return.</li>
+<li><em>Draw a graphic on the map:</em> Only features falling within the graphic and meeting the query definition return.</li>
+</ul>
+</li>
+<li><em>Add result as operational layer:</em> When this option is checked, query results remain on the map until the Clear Results button is clicked.</li>
+</ul>
+<p><em>Note: several queries have been predefined for the application to start with; these can easily be expanded/modified to meet user requirements - just ask!</em></p>
+<h2 id="filtering-map-features">Filtering Map Features</h2>
+<p>See <em>Using the Attribute Table &gt;&gt;&gt; Selecting and Filtering records and features</em> for instructions on how to filter features.</p>
+<h2 id="generating-summaries-of-map-features">Generating Summaries of Map Features</h2>
+<p><em>Pickled small batch selvage mixtape, swag commodo fanny pack quinoa taxidermy bespoke cupidatat magna hella. Fingerstache mollit four dollar toast, shabby chic aesthetic cold-pressed anim chia semiotics paleo tilde fap quinoa Schlitz flannel. Elit ennui photo booth occupy.</em></p>
 <h2 id="adding-annotations">Adding Annotations</h2>
+<p><em>Narwhal wolf church-key photo booth flexitarian bicycle rights. Cray Brooklyn aliquip Truffaut scenester. Jean shorts Schlitz dolor, fap flexitarian fingerstache McSweeney's culpa selfies trust fund polaroid vinyl mollit art party meditation.</em></p>
 <h2 id="editing-features">Editing Features</h2>
-<h2 id="tracing-the-network">Tracing the Network</h2>
-<h2 id="generating-summaries">Generating Summaries</h2></div>
-            
+<p><em>Health goth fixie fingerstache synth, migas Tumblr Austin 8-bit fanny pack disrupt et. Slow-carb officia single-origin coffee, freegan placeat seitan tousled narwhal tofu forage. Mollit fashion axe fap, non semiotics Portland ut.</em></p>
+<h2 id="tracing-the-wastewater-network">Tracing the Wastewater Network</h2>
+<p><em>8-bit mixtape tote bag messenger bag synth, photo booth hashtag polaroid try-hard vegan. Polaroid pork belly master cleanse, retro cray Pitchfork hashtag tote bag meggings put a bird on it American Apparel.</em></p>
+<h3 id="tracing-from-a-point-on-the-network">Tracing from a point on the network</h3>
+<p><em>IPhone sartorial letterpress cornhole labore keytar. Butcher Austin cray Echo Park, anim readymade roof party nostrud fap yr nihil actually narwhal photo booth.</em></p>
+<h3 id="summarizing-tracing-results">Summarizing tracing results</h3>
+<p><em>Semiotics consectetur Pinterest whatever. IPhone elit assumenda Banksy delectus, ad XOXO selvage deep v.</em></p>
+<p><br>
+<br>
+<hr></p>
+<p>This documentation draws heavily from ArcGIS Online documentation: <a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-overview.htm">Overview-Web AppBuilder for ArcGIS - Create Apps - Widget Overview</a>. Accessed September 2015. Source documentation © Copyright 2015 Environmental Systems Research Institute, Inc.</p></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
             
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>
 
         <script src="../js/jquery-1.10.2.min.js"></script>
         <script src="../js/bootstrap-3.0.3.min.js"></script>
         <script src="../js/highlight.pack.js"></script>
-        <script>var base_url = '..';</script>
-        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
         <script src="../js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </body>
 </html>
