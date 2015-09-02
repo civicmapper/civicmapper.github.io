@@ -7,15 +7,15 @@
         <meta name="description" content="Help documentation for the 3 Rivers Wet Weather Atlas products.">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="shortcut icon" href="./img/favicon.ico">
         
 
 	<title>3RWW Atlas Documentation</title>
 
         <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
         <link href="./css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -26,13 +26,14 @@
         
     </head>
 
-    <body>
+    <body class="homepage">
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
+            
             <!-- Expander button -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -40,6 +41,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            
 
             <!-- Main title -->
             <a class="navbar-brand" href=".">3RWW Atlas Documentation</a>
@@ -47,47 +49,55 @@
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
-            <!-- Main navigation -->
-            <ul class="nav navbar-nav">
             
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href=".">Overview</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="frontend/">Atlases</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="backend/">Maps & Services</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="guide_rsi/">RSI Guide</a>
+                    </li>
+                
+                
+                </ul>
             
-                <li class="active">
-                    <a href=".">Overview</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="frontend/">Atlases</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="backend/">Maps & Services</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="guide_rsi/">RSI Guide</a>
-                </li>
-            
-            
-            </ul>
 
-            <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
-                <li class="disabled">
-                    <a rel="next" >
-                        <i class="fa fa-arrow-left"></i> Previous
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="frontend/">
-                        Next <i class="fa fa-arrow-right"></i>
-                    </a>
-                </li>
+                
+                    <li class="disabled">
+                        <a rel="next" >
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="frontend/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
                 
             </ul>
         </div>
@@ -95,7 +105,8 @@
 </div>
 
         <div class="container">
-            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
         <li class="main active"><a href="#3-rivers-wet-weather-atlas">3 Rivers Wet Weather Atlas</a></li>
@@ -109,12 +120,12 @@
     
     </ul>
 </div></div>
-            <div class="col-md-9" role="main">
+                <div class="col-md-9" role="main">
 
 <h1 id="3-rivers-wet-weather-atlas">3 Rivers Wet Weather Atlas</h1>
-<p>The <strong>3 Rivers Wet Weather Atlas</strong> represents the next generation of mapping products from <a href="./www.3riverswetweather.org">3 Rivers Wet Weather</a>. Developed by <a href="http://www.civicmapper.com">CivicMapper</a> and hosted by <a href="http://alcogis.maps.arcgis.com/home/index.html">Allegheny County</a>, the Atlas consolidates previous geodata and maps into one geographic information system (GIS) hosted with <a href="http://www.arcgis.com">ArcGIS Online</a>.</p>
+<p>The <strong>3 Rivers Wet Weather Atlas</strong> represents the next generation of mapping products from <a href="./www.3riverswetweather.org">3 Rivers Wet Weather (3RWW) </a>. Developed by <a href="http://www.civicmapper.com">CivicMapper</a> and hosted by <a href="http://alcogis.maps.arcgis.com/home/index.html">Allegheny County</a>, the Atlas has consolidated previous 3RWW  geodata and maps into one geographic information system (GIS), and shares it using <a href="http://www.arcgis.com">Esri ArcGIS Online</a>.</p>
 <p>The Atlas is currently in active development, with improvements to the applications and data being made on frequent basis. This page lists all Atlas products and provides links to those that are live.</p>
-<p>Visit the <a href="frontend/">Atlases</a> page for more information on the Atlas products. For information on data and map configuration products used in ArcGIS Online, visit the <a href="backend/">Maps &amp; Services</a> page.</p>
+<p>Visit the <a href="frontend/">Atlases</a> page for more information on the Atlas products. For information on data services and web map/configuration products used for the Atlas "back-end" in ArcGIS Online, visit the <a href="backend/">Maps &amp; Services</a> page.</p>
 <hr>
 
 <h2 id="regional-green-infrastructure-rgi-atlas-products">Regional Green Infrastructure (RGI) Atlas Products</h2>
@@ -147,23 +158,57 @@
 <hr>
 
 <h2 id="other-atlas-products">Other Atlas Products</h2>
-<p>Several other existing map-based analysis tools provided by 3 Rivers Wet Weather are planned to be integrated with the Atlas:</p>
+<p>Several other existing map-based analysis tools provided by 3 Rivers Wet Weather are planned to be integrated within the Atlas as data, geoprocessing, and/or map services:</p>
 <ul>
 <li><strong><a href="http://www.3riverswetweather.org/municipalities/calibrated-radar-rainfall-data">Calibrated Radar Rainfall Data</a>:</strong> online; new version planned</li>
 <li><strong><a href="http://www.3riverswetweather.org/green-infrastructure">Engineer's / Planner's Tool</a>:</strong> offline; new version planned</li>
 <li><strong><a href="http://www.3riverswetweather.org/green/homeowners-tool">Property Owner's Tool</a>:</strong> online; new version planned</li>
 </ul></div>
+            
         </div>
 
         <footer class="col-md-12">
             <hr>
             
-            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
         <script src="./js/jquery-1.10.2.min.js"></script>
         <script src="./js/bootstrap-3.0.3.min.js"></script>
         <script src="./js/highlight.pack.js"></script>
+        <script>var base_url = '.';</script>
+        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
         <script src="./js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
+
+<!--
+MkDocs version : 0.14.0
+Build Date UTC : 2015-09-02 14:47:29.743000
+-->
