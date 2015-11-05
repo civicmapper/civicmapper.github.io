@@ -391,7 +391,7 @@ TEAM CSS
 
 /******fun facts*****/
 .funfacts{
-    background: url(../images/bg-7.jpg);
+    background: url(../images/bg-7s.jpg);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -420,7 +420,7 @@ TEAM CSS
     font-weight: 300;
 }
 .testimonials{
-    background: url(../images/bg-7.jpg);
+    background: url(../images/bg-7s.jpg);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -681,7 +681,7 @@ cta
 }
 /***contact****/
 #contact{
-      background: url(../images/bg-4.jpg);
+      background: url(../images/bg-4s.jpg);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
