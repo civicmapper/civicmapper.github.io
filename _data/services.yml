@@ -1,0 +1,60 @@
+# Services
+services:
+  - title: Geospatial Consulting
+    subtitle: Our geospatial and subject-area expertise applied to your projects
+    desc:
+      - We provide general-purpose consulting for civic organizations, bringing our geospatial and subject-area expertise to your organization's individual projects. Our consulting services include 
+      - <ul><li>geospatial data collection, curation, and maintenance</li><li>web mapping application development and deployment</li><li>spatial and non-spatial data visualization</li><li>strategic planning for geographic information systems (GIS) implementation</li></ul>
+      - We emphasize creating mapping solutions and data that have a long life-cycle and are able to serve the organization and the public long after the project ends.
+    fa-icon: fa-map
+  - title: GIS Department-as-a-Service / Virtual Geospatial Technology Officer
+    subtitle: Dedicated geographic information systems (GIS) professionals at your disposal, ready to tackle anything
+    desc:
+      - Our geographic information systems (GIS) department-as-a-service is like having your own  dedicated GIS staff in-house.
+      - Through an extended-term arrangement, we work side-by-side with you and your team to tackle mapping projects, spin-up data and maps, and even manage your GIS IT infrastructure.
+      - By working with you over an extended period, we can help evolve the solutions we build for you.
+    fa-icon: fa-users
+  - title: Mapping Application R&D
+    subtitle: Open maps and tools to address common and pressing real-world problems
+    desc:
+      - In addition to consulting services, we also are also undertaking research and development to build web mapping tools focused on addressing common and pressing problems. We're interested in
+      - <ul><li>modeling gray and green stormwater infrastructure performance</li><li>identifying and prioritizing the maintenance of aging infrastructure</li><li>identifying regional economic development opportunities</li><li>mapping natural resource extraction impacts</li><li>evolving mapping technology to support urban design using the GeoDesign framework</li></ul>
+      - Keep an eye on <a class="page-scroll" href="#labs">CivicMapper Labs</a> for more information about our R&D efforts.
+    fa-icon: fa-cogs 
+
+expertise:
+  - title: Geoscience
+    subtitle: geology, hydrology and groundwater, ecology, and energy
+    desc:
+    fa-icon: fa-tree
+  - title: Infrastructure
+    subtitle: drinking water, wastewater, green and gray stormwater, and transportation/mobility
+    desc:
+    fa-icon: fa-tint
+  - title: Planning and Design
+    subtitle: urban and regional planning, environmental planning, urban design and place-making, and economic development
+    desc:
+    fa-icon: fa-building
+    
+geo-platform:
+  - GeoStore
+  - GeoFunction
+  - Atlas
+  
+subjects:
+  - Geoscience
+    - geology
+    - hydrology and groundwater
+    - ecology
+    - energy
+  - Infrastructure
+    - drinking water
+    - wastewater
+    - green and gray stormwater
+    - transportation/mobility
+  - Planning & Design
+    - urban and regional planning
+    - environmental planning
+    - urban design / place-making
+    - landscape architecture
+    - economic development

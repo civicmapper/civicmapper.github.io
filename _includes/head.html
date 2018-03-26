@@ -1,0 +1,31 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/icons/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/icons/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/icons/favicons/safari-pinned-tab.svg" color="#335d83">
+    <link rel="shortcut icon" href="/assets/icons/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#90c5da">
+    <meta name="msapplication-TileImage" content="/assets/icons/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/assets/icons/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Custom CSS and CSS/Fonts -->
+    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

@@ -1,0 +1,32 @@
+---
+title: Portfolio
+layout: blog
+---
+
+
+<section id="blog">
+	<div class="container">
+		{% for post in site.posts %}
+		<hr>
+		<div class="row">
+			<div class="col-md-5 portfolio-item">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="portfolio-link">
+						<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+										<i class="fa fa-plus-square fa-3x"></i>
+								</div>
+						</div>
+						<img src="../assets/img/posts/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+				</a>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-6">
+				<h3 class="section-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+				<h4 class="section-heading">{{ post.date | date_to_string }}</h4>
+				<!--<p><a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Read Post</a></p>-->
+			</div>
+		</div>
+
+		{% endfor %}
+	</div>
+</section>

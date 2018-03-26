@@ -1,0 +1,45 @@
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<h3>CIVICMAPPER</h3>
+				<p>{{site.data.contact.info.street}}<br>{{site.data.contact.info.name}}<br>{{site.data.contact.info.city}}, {{site.data.contact.info.state}} {{site.data.contact.info.zip}}<br>{{site.data.contact.info.phone}}</p>
+			</div>
+			<div class="col-sm-5">
+				<p>Contact Us:</p>
+				<ul class="list-inline social-buttons">
+					{% for network in site.data.contact.social %}
+					<li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<p>Resources</p>
+				<ul class="quicklinks">
+					<li><a href="http://github.com/civicmapper">Github</a></li>
+					<li><a href="http://civicmapper.maps.arcgis.com">ArcGIS Online</a></li>
+					<li>CARTO (coming soon)</li>
+					<li>Mapbox (coming soon)</li>
+					<li>app.civicmapper.com (coming soon)</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="list-inline quicklinks">
+					<li><span class="copyright">&copy; {{ site.corporate.date }} {{ site.corporate.name }} </span></li>
+					<!--
+					<li><a href="">Privacy Policy</a></li>
+					<li><a href="">Terms of Use</a></li>
+					-->
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>

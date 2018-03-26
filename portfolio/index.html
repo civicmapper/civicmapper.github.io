@@ -1,0 +1,70 @@
+---
+layout: portfolio
+---
+
+<section id="current">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="section-heading">Current Projects</h1>
+			</div>
+		</div>
+		<div class="row">
+		{% for project in site.projects %}
+		{% if project.category != 'past' %}
+			<div class="col-md-4 portfolio-item">
+				<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
+					<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+									<i class="fa fa-plus-square fa-3x"></i>
+							</div>
+					</div>
+					<img src="../assets/img/proj/{{ project.thumb-image }}" style="width:100%;" alt="">
+				</a>
+				<h3>{{ project.title}}</h3>
+				<p> {{ project.client }}</p>
+			</div>
+		{% endif %}
+		{% endfor %}
+		</div>
+	</div>
+</section>
+<div class="container">
+<hr>
+</div>
+<section id="past">
+	<div class="container">
+		</hr>
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="section-heading">Past Projects</h2>
+				<p class="text-tertiary"><em>A sampling of projects completed by our team members before they joined of CivicMapper.</em></p>
+			</div>
+		</div>
+		<div class="row">
+		{% for project in site.projects %}
+		{% if project.category == 'past' %}
+			<div class="col-md-4 col-sm-6 portfolio-item">
+					<div class="row">
+						<div class="col-sm-6">
+							<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
+								<div class="portfolio-hover">
+										<div class="portfolio-hover-content">
+												<i class="fa fa-plus-square fa-3x"></i>
+										</div>
+								</div>
+								<img src="../assets/img/proj/{{ project.thumb-image }}" class="img-responsive" alt="">
+							</a>
+						</div>
+						<div class="col-sm-6 portfolio-caption-side">
+								<h4 style="text-transform:none;">{{ project.title}}</h4>
+								<!--p class="smaller"> {{ project.whowith }}</p-->
+						</div>
+					</div>
+			</div>
+			<!--div class="clearfix visible-md-block visible-lg-block"></div-->
+		{% endif %}
+		{% endfor %}
+		</div>
+	</div>
+</section>

@@ -1,0 +1,40 @@
+<!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row" style="padding-bottom:100px;">
+                <div class="col-md-5">
+                    <h2 class="section-heading">Mapping and Spatial Analysis, Applied</h2>
+                    <h3 class="service-heading">We bring specialized knowledge of geoscience, civil infrastructure, and urban planning and design to create focused and rigorous products that cover the complete geospatial technology stack and solve real-world problems.
+                    </h3>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-6">
+                    <br><br><hr>
+                    {% for subject in site.data.services.expertise %}
+                    <h3><span class="text-secondary">{{subject.title}} <i class="fa {{subject.fa-icon}}"></i></span></h3>
+                    <p>{{subject.subtitle}}</p>
+                    <hr>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="section-heading">Professional Services</h2>
+                    <h3 class="service-heading">We offer an array of professional services options, with a focus on tailoring the right technology to meet your immediate and long-term needs.</h3>
+
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-6">
+                    <br><br><hr>
+                    {% for service in site.data.services.services %}
+                    <h3><span class="text-secondary">{{service.title}} <i class="fa {{service.fa-icon}}"></i></span></h3>
+                    <h4>{{service.subtitle}}</h4>
+                    <hr>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
