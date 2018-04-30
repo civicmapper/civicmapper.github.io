@@ -19,12 +19,12 @@
 			</div>
 			<div class="col-sm-8">
 				<div class="row">
-					<div class="col-sm-6 portfolio-item">
+					<div class="col-sm-12 portfolio-item">
 
 							<h4><a href="{{site.baseurl}}/portfolio#current" class="portfolio-link text-white">Current Projects <i class="fa fa-arrow-right fa-1x"></i></a></h4>
 							{% for project in site.projects %}
 							{% if project.category != 'past' %}
-							<div class="col-m-12 portfolio-item">
+							<div class="col-xs-4 portfolio-item">
 								<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
 									<div class="portfolio-hover">
 										<div class="portfolio-hover-content">
@@ -38,7 +38,7 @@
 							{% endfor %}
 
 					</div>
-					<div class="col-sm-6 portfolio-item">
+					<!-- <div class="col-sm-6 portfolio-item">
 						<h4><a href="{{site.baseurl}}/portfolio#past" class="portfolio-link text-white">Team Portfolio <i class="fa fa-arrow-right fa-1x"></i></a></h4>
 						<div class="row">
 							{% for project in site.projects offset: 0 limit: 8 %}
@@ -56,9 +56,9 @@
 							{% endif %}
 							{% endfor %}
 
-							</div>
+						</div>
 
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
