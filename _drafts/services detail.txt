@@ -1,4 +1,0 @@
-<h4>{{service.subtitle}}</h4>
-{% for p in service.desc %}
-<p>{{p}}</p>
-{% endfor %}

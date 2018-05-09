@@ -1,8 +1,9 @@
 # project workspace
-.vs_code/
+.vscode/
 
-# jekyll build folder
+# jekyll build stuff folder
 _site/
+.sass-cache/
 
 # Site working files
 *.psd

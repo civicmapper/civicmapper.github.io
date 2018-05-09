@@ -1,26 +1,38 @@
 # Services
 services:
-  - title: Geospatial Consulting
+  - title: Mapping Projects
     subtitle: Our geospatial and subject-area expertise applied to your projects
     desc:
       - We provide general-purpose consulting for civic organizations, bringing our geospatial and subject-area expertise to your organization's individual projects. Our consulting services include 
       - <ul><li>geospatial data collection, curation, and maintenance</li><li>web mapping application development and deployment</li><li>spatial and non-spatial data visualization</li><li>strategic planning for geographic information systems (GIS) implementation</li></ul>
       - We emphasize creating mapping solutions and data that have a long life-cycle and are able to serve the organization and the public long after the project ends.
     fa-icon: fa-map
-  - title: GIS Department-as-a-Service / Virtual Geospatial Technology Officer
-    subtitle: Dedicated geographic information systems (GIS) professionals at your disposal, ready to tackle anything
+  - title: Virtual Geospatial Technology Officer
+    subtitle: A dedicated geospatial technology expert available to help you design and implement a geo/data strategy
     desc:
-      - Our geographic information systems (GIS) department-as-a-service is like having your own  dedicated GIS staff in-house.
+      - ~A dedicated geospatial technology expert available to help you design and implement a geo/data strategy~
+    fa-icon: fa-users    
+  - title: GIS Department-as-a-Service
+    subtitle: Dedicated geospatial and web technology professionals at your disposal
+    desc:
+      - Our geographic information systems (GIS) department-as-a-service is like having your own dedicated GIS, geospatial, and database development staff in-house.
       - Through an extended-term arrangement, we work side-by-side with you and your team to tackle mapping projects, spin-up data and maps, and even manage your GIS IT infrastructure.
       - By working with you over an extended period, we can help evolve the solutions we build for you.
     fa-icon: fa-users
+  - title: Data Strategy
+    subtitle: Making data the 2nd bullet in your organization's mission
+    desc:
+      - We help make data a program and process, not just a project; applying the civic tech ethos to your organization
+      - Refocusing workflows and business processes to be user and data-centric, but not tech-dependent
+      - Leverage OTS technology as needed to keep things simple and cost-effective
+    fa-icon: fa-disk
   - title: Mapping Application R&D
     subtitle: Open maps and tools to address common and pressing real-world problems
     desc:
       - In addition to consulting services, we also are also undertaking research and development to build web mapping tools focused on addressing common and pressing problems. We're interested in
       - <ul><li>modeling gray and green stormwater infrastructure performance</li><li>identifying and prioritizing the maintenance of aging infrastructure</li><li>identifying regional economic development opportunities</li><li>mapping natural resource extraction impacts</li><li>evolving mapping technology to support urban design using the GeoDesign framework</li></ul>
       - Keep an eye on <a class="page-scroll" href="#labs">CivicMapper Labs</a> for more information about our R&D efforts.
-    fa-icon: fa-cogs 
+    fa-icon: fa-cogs
 
 expertise:
   - title: Geoscience
@@ -58,3 +70,22 @@ subjects:
     - urban design / place-making
     - landscape architecture
     - economic development
+
+# Process
+process:
+  - title: 1. Discover
+    subtitle: data visualization
+    desc: Sometimes just seeing your data on a map provides a spark that changes how you think about your data. We use state-of-the-art 2D and 3D visualization and analysis tools to help you understand your data.
+    fa-icon: fa-map
+  - title: 2. Curate
+    subtitle: data capture, integration, and maintenance
+    desc: In today's "big data" world, wrapping your head around how to manage it all in a way that is best for your organization can be a challenge. We treat <a href="">data as a living product</a> and know how to design processes to manage data to support your mission, without distracting from it.
+    fa-icon: fa-database
+  - title: 3. Interact
+    subtitle: web map/app development
+    desc: Curated data, maps, and visualizations are the first steps; enabling interactivity and analysis are the next. Drawing on our expertise with the full geospatial technology stack, data to map to analysis, we develop and deploy the best-fit mapping technology that allows you (and your audience) to gain deep insights into your data.
+    fa-icon: fa-cogs
+  - title: GeoDesign
+    subtitle: geospatial tech, systems thinking, and the creative process
+    desc:
+    fa-icon: fa-pencil-square-o

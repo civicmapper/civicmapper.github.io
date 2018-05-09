@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Bard Microhydropower Calculator
+title: Bard Micro-hydropower Calculator
 time: March 2017 - May 2018
 place: Pittsburgh, Pennsylvania, USA
 client: Spatial Analytix, Bard College, Current Hydro

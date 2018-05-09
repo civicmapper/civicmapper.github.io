@@ -1,0 +1,42 @@
+
+//Asset path
+$assetPath : "/assets";
+@function get-path-to-assets($assetPath){
+  @return $assetPath;
+}
+
+// Color palette
+// see http://www.palettable.io/be1e2d-90C5DA-4A484B-101A26-335D83
+$primary: #90C5DA !default;
+$secondary: #be1e2d !default;
+$tertiary: #335D83 !default;
+$tertiary-background-dark: rgba(51, 93, 131, 0.8) !default;
+$tertiary-background-light: rgba(51, 93, 131, 0.6) !default;
+$text: #101A26 !default;
+$neutral: #4A484B !default;
+$lightest-gray: f7f7f7 !default;
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #f7f7f9 !default;
+$gray-300: #eceeef !default;
+$gray-400: #ced4da !default;
+$gray-500: #aaa !default;
+$gray-600: #888 !default;
+$gray-700: #5a5a5a !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// Fonts
+$web-font-path: "https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400i,700" !default;
+$font-family-headings: 'Montserrat', Helvetica, Arial, sans-serif !default;
+$font-family-body: 'Open Sans', Helvetica, Arial, sans-serif !default;
+
+// Logo Assets
+$logo-banner: url(/assets/img/logos/banner.svg);
+$logo-banner-white: url(/assets/img/logos/banner-white.svg);
+$logo-banner-img: url(/assets/img/logos/banner.png);
+$icon-banner: url(/assets/img/logos/icon-banner.svg);
+$icon-banner: url(/assets/img/logos/icon.svg);
+// $icon-banner: url(#{$get-path-to-assets}/img/logos/icon.svg);

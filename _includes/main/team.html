@@ -1,0 +1,34 @@
+<!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">Team</h1>
+                    <h3 class="section-subheading service-heading text-muted">
+                        Our team's professional and academic experience using GIS helps us to bridge the gap between the specialized world of GIS and your need to leverage geospatial technology to develop real-world solutions.
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.data.team.members %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/img/team/{{ member.pic }}" class="img-responsive" alt="">
+                        <h4>{{ member.first }} {{ member.last }} <span class="text-primary smaller">{{member.creds}}</span></h4>
+                        <p class="text-secondary">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        <p class="text-muted">{{ member.info }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping the Lead in Our Water Lines
+title: An Experiment We Conducted
 img: default.jpg
 thumbnail: default-thumbnail.jpg
 author: Emily C. Mercurio & Christian Gass
@@ -12,7 +12,7 @@ Elevated lead concentrations in drinking water is not unique to Michigan or here
 
 How did this all come to pass? And how does local government tackle such a seemingly massive and complex infrastructure issue?
 
-In this post, we'll look at what organizations have been involved from the federal level on down, what is being asked of local municipalities, and how the local fix starts with a map.
+In this post we'll look at what organizations have been involved from the federal level on down, what is being asked of local municipalities, and how the local fix starts with a map.
 
 ## Directives from the EPA on down
 ---
@@ -35,11 +35,12 @@ Mr. David Donahoe, the PWSA interim executive director, stated that the **pipeli
 
 Pittsburgh is one of many areas in the state that has been dealing with elevated lead levels over the past few years. [Lancaster County has identified 17 water systems](http://www.usatoday.com/story/news/nation/2016/03/16/lancaster-county-pa-lead-drinking-water/81576034/) with lead levels above the EPA standard, leading the city of Lancaster to replace 98% of their lead service lines. [Philadelphia has an estimated 60,000 properties with lead service lines of unknown age, but no location maps exist](http://crossroads.newsworks.org/index.php/local/keystone-crossroads/91899-utilities-dont-know-where-lead-pipes-are-and-water-testing-offers-limited-safety-assurances). The problem in Philadelphia is further complicated because the service lines there are private and the Philadelphia Water Department is not responsible for them.
 
+
 ### Successful mapping precedents
 
-The problem shared by most of the affected communities is the lack of an accessible geo-dataset or map that shows where the lead service lines are located. It is impossible to prioritize fixes to a problem of this magnitude with so many gaps in information.
+The problem shared by the majority of the affected communities is the lack of an accessible map that shows where the lead service lines are located. It is impossible to prioritize fixes to a problem of this magnitude with so many gaps in information are.
 
-There are great precedents for using geodata and maps to manage this kind of information:
+However, if you're not convinced a map is the starting point, take a look at these water authority maps:
 
 * [Boston Water and Sewer Commission](http://www.bwsc.org/COMMUNITY/lead/leadmaps.asp#TOP_PAGE)
 * [District of Columbia Water and Sewer Authority](https://geo.dcwater.com/Lead/)
@@ -52,60 +53,76 @@ These maps provide examples of what a web-based lead pipe map can look like and 
 
 The urgency of resolving the lead-pipe issue in Pittsburgh and around the country is clear. The question is: where do we start?
 
-First, define what is ultimately needed:
+First, make define what we ultimately need:
 
-* **a water line inventory, with an emphasis on capturing attributes related to pipe location, materiality (e.g., lead? yes/no) and geometry (e.g., diameter, inverts)**: This inventory forms the basis for addressing the EPA's requirements.
+* **a water line inventory, with an emphasis on capturing attributes related to pipe location, materiality (e.g., lead? yes/no) and geometry (e.g., diameter, inverts)**: This inventory forms the basis of addressing the EPA's requirements.
 
-Note that this inventory makes a bunch of other things possible for addressing short- and long-term needs:
+Note that this inventory makes a bunch of other things possible that address short- and long-term needs:
 
-* **web map(s) and other tools that support the internal efforts of water authorities**: the water authority can use the data inventory to focus its internal staff and resources. That inventory needs to be built with geospatial technology, which will support the creation of tools that:
+* **web map(s) and other tools that support the internal efforts of water authorities**: the water authority can use the data inventory to focus its internal staff and resources. That inventory needs to fundamentally be built with geospatial technology, which will support the creation of tools that:
   * facilitate data collection
   * identify knowledge gaps and data collection priorities
   * help to prioritize and help manage corrective actions (e.g., pipe replacement)
-* **a web map and information site for the public**: There must be a public point of information that relays progress on problem resolution. Maps are great ways to visualize data, but recognizing that not everyone reads maps, the map needs to be a supplement to an easy-to-read informational web page. Transparency will win the day here, and, as we'll explain below, there is no hurdle in making a web map and no excuses for not making one.
+* **a web map and information site for the public**: We need a public point of information on the project. Maps are great ways to visualize data, but recognizing that not everyone reads maps, the map needs to be a supplement to a easy-to-read informational web page. This all must importantly, demonstrate that progress is being made at some level. Transparency will win the day here, folks - we, the public, have a right to know that our representatives are actively working to manage resolution of this problem. And, as we'll explain below, in this day and age there is no hurdle in making a web map, and no excuses for not making one.
 
-Second, make some pragmatic choices about technology and process. To that end, we see three key things that public officials charged with finding the solution to this issue need to push:
+Second, make some pragmatic choices about technology and process. We see three key things that public officials charged with finding the solution to this issue need to push:
 
-**1. Recognize that this is a geospatial data problem first and a civil engineering problem second -- and create the work plan accordingly**
+### **1. Recognize that this is a geospatial data problem first and an engineering problem second -- and create the work plan accordingly**
 
 This project demands a design-thinking process applied to a work-planning process: start high-level with data, and iterate down to support detailed engineering requirements.
 
-Focus first on scoping the data picture. Once the data picture begins to become clear, and using tools that leverage geospatial data to answer questions and identify priorities, task civil engineers to do what they are best at: designing solutions for repairing physical infrastructure.
+Focus first on scoping the operational data picture. Once the data picture begins to become clear, and using tools that leverage geospatial data to answer  questions and identify priorities, task engineers to do what they are best at: designing solutions for repairing physical infrastructure.
 
-**2. Use available commodity geographic information systems (GIS) products *for the web*, and configure them for the people who are going to use them**
+### **2. Use available commodity geographic information systems (GIS) products *for the web*, and configure them for the people who are going to use them**
 
-A plethora of web-facing mapping software is available to support this process, is robust and affordable, and can be spun-up quickly. Utilize what is available for cheap--the FOSS4G stack is quite powerful these days--and get someone who knows geospatial technology to tailor it to support the lead pipe mapping data inventory process. An investment in a full-blown, expensive asset management system isn't necessarily required to get started, as any GIS database can transition to that software later on.
+A plethora of web-facing mapping software to do this support this process already exists, is robust and can do handle job, is affordable, and can be spun-up quickly. [ArcGIS Online](www.arcgis.com). [Boundless Exchange](http://boundlessgeo.com/exchange/). [CARTO](https://carto.com/). [Mapbox](https://www.mapbox.com/). It doesn't matter. They're all in the cloud. All support open data formats. All can be secured (though in some cases that requires ponying up some cash). Don't feel the need to build a custom solution. Use one of these to tailor built-to-purpose maps and tools for the tasks at hand.
 
-**3. Use an agile approach to building the data model and completing the pipe inventory**
+This whole process really demands using a geospatial database for the web. PostGIS/PostgreSQL is free, proven, and well supported spatial database, and there are plenty of ways to expose its data and/or data subsets to the web with tiered security. There are other options, too. Start with any of them. Just say no to local file system storage: don't start with a non-spatial solution that sits on a desktop or on some consultant's internal server (sorry, MS Access fans). And please (seriously, please): don't start building out the inventory dataset in a CAD drawing.
 
-With a project of this magnitude, there is a tendency to spec out every last detail of what the data model should look like first: *N* attributes, subtypes, relational tables...? 
+We recognize that it's tempting to use a crisis like this as an impetus for going all-in on a expensive, full-blown, enterprise-level asset management software. But given the limited quantity and quality of data to start with, it is safe to say that the majority of the functionality that comes with such a purchase will go unused--not to mention time lost training up staff on a completely new software set.
+
+Rather, utilize available commodity web mapping software and get someone who lives and breathes geospatial to tailor it to support the lead pipe mapping data inventory process.
+
+### **3. Use an agile approach to building the data model and completing the pipe inventory**
+
+With a project of this magnitude, there is a tendency to spec out every last detail of what the data model should look like first. *N* attributes, subtypes, relational tables...? Should we go after the biggest and baddest enterprise database out there, just in case?
+
+None of this makes sense given that we may not even have a handle on how much and what kinds of metadata and attributes the data sources coming in will provide.
 
 *Agile* is a design process often described within the context of software development: *prototype, validate, measure, tweak, repeat*. The result, in software, is often leaner, more focused products that are delivered quickly.
 
-Coincidentally, those are the same characteristics we need of our database and mapping products to tackle the lead pipe problem. Such an approach can be used in building the water line inventory:
+Coincidentally, those are the same characteristics we need of our data to tackle the lead pipe problem. Such an approach can be used in building the water line inventory:
 
-* Start with an existing, well-supported data model for water line databases--no need to reinvent the wheel
-* Focus on building the dataset out to meet the immediate need using available data sources; emphasize collecting priority records and attributes
-* Know that in collecting data, gaps in the data will be revealed--use those to inform continued iteration
-* Anticipate consolidating and optimizing the dataset--it's OK to improve how it is structured as more information comes in!
-* Plan to evolve the data model as project and organizational needs change (including looking towards a potential transition to asset management software), but don't let that drive the data modeling and collection process at the beginning
+* Focus on building the dataset out to meet the immediate need with source data as it becomes available
 
-*Prototype, validate, measure, tweak, repeat.* As with software, create versioned "releases" of the data. Provide documentation (data model change-logs, data creation assumptions, etc.) that have gone into building each 'release'. Embrace feedback and use it to prioritize the filling of data gaps.
+* Anticipate consolidating and optimizing the dataset - it's OK to improve how it is structured as more information comes in!
+
+* Plan to evolve the data model as project and organizational needs change
+
+We don't yet know if the data we have at hand will help us begin to solve this problem because we haven't ever seen it all in one place. So, let's start by getting into one place (literally): *georeference everything*. Paper maps, digital data (whatever format) - desktop GIS tools (free and proprietary) exist for giving non-spatial information that represents spatial things the geo-metadata it needs to display on a digital map. For a GIS professional, the process of georeferencing is rote.
+
+Once we're ready to build an authoritative water line network dataset, start with a well-supported data models for water line databases. Focus on populating the priority attributes: pipe network location data with key attributes describing materiality and geometry. Ownership is important, too. In the off chance one of these models don't include everything needed for the task at hand, then simply extend it. Don't start this process by spec'ing out a custom data model from scratch (especially if you don't know what kind of data is coming in to start with).
+
+Then, with source data given geospatial references, and a basic data model ready to go, start with the data we have right now. It will inform where the gaps are. Work to fill the gaps. Prototype, validate, measure, tweak, repeat. As with software, create versioned "releases". Provide documentation (data model change-logs, data creation assumptions, etc.) that have gone into building each release.
+
+And, despite emphasizing *agile*, it is OK to keep an eye future-forward on a long-term goal for using this data in an asset management system. It just shouldn't drive the data modeling and collection process at the beginning. Long-term, once the data's completeness can support asset management, then move it over--any asset management software worth its salt will be able to import just about any open geospatial data format.
 
 ---
 
-In the right hands, the process of collecting the data required to address the lead pipe issue can be performed quite efficiently. More importantly, the process can set the foundation for a long-term data maintenance and asset management strategy.
+In the right hands, the process of creating the maps and the information required by the EPA to address the lead pipe issue can be accomplished efficiently. More importantly, the process can set the foundation for long-term data maintenance and asset management.
 
 <br>
 
 ## Filling in Data Gaps
 ---
 
-The use of GIS, geo-enabled databases, and web mapping platforms are keys to success in addressing the lead pipe problem. Obviously, the locations of the lead pipes themselves are key. This begs the question: How do we develop an inventory of lead pipes and service line locations when the data may not exist or has been lost?
+The use of GIS, geo-enabled databases, and web mapping platforms are keys to success.
 
-This is where the three-part approach above comes into play. A process for building out a dataset filling in data gaps might be comprised for three general steps:
+Obviously, the locations of lead pipes are the key to the ultimate relevance and usefulness of these maps. This begs the question: How do we develop an inventory of lead service lines and their locations when the data may not exist or has been lost?
 
-1. Use available data--any data--to identify gaps and next appropriate steps.
+This is where the 3 part approach--particularly the agile data (#3) and scaled work plan (#1)--come into play. A process for filling in data gaps might be comprised for 3 general steps, repeated:
+
+1. Use available to data to identify gaps
 2. Work with engineers and experts in the field to:
   * identify tools available for sensor-based lead detection
   * identify places for water sampling campaigns

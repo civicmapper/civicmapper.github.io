@@ -1,0 +1,9 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "_variables.scss";
+@import "bootstrap.min.scss";
+@import "_theme.scss";
+@import "../fonts/font-awesome/css/font-awesome.min.css";

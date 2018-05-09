@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 3RWW Green Infrastructure Atlas
+title: Green Infrastructure Atlas
 time: April 2015 - Ongoing
 place: Pittsburgh, Pennsylvania, USA
 client: 3 Rivers Wet Weather

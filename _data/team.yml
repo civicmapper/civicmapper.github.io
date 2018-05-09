@@ -1,0 +1,39 @@
+# Team names, titles and social links
+members:
+- first: Emily 
+  last: Constantine Mercurio
+  creds: PhD, PG
+  pic: staff-em.png
+  position: President / CEO
+  info: As President and CEO of CivicMapper, Emily draws upon more than 20 years of experience as a leader in GIS and mapping projects for a broad range of application areas. She is particularly interested in the use of geospatial technologies and spatial-based information management for projects in wastewater, stormwater, aging infrastructure, and environmental monitoring.
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/ecmercurio
+    - title: twitter
+      url: https://twitter.com/eldfjallakoku
+- first: Christian 
+  last: Gass
+  creds: MCP
+  pic: staff-cg.png
+  position: VP / COO
+  info: Christian, VP and COO of CivicMapper, is a planner and urban designer with strong experience using GIS for the mapping, analysis, and visualization of environment, infrastructure, and urban development. With CivicMapper, he leads software and web development, creating web mapping and geospatial analysis tools that draw on his practical experience working in planning and design for the public and private sector.
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/christianbgass
+    - title: twitter
+      url: https://twitter.com/GassChristianB
+    - title: github
+      url: http://github.com/gassc
+- first: Matt
+  last: Mercurio
+  creds: GISP
+  pic: staff-mm.png
+  position: GTO
+  info: Matt’s 20-year career as a GIS professional at non-profits and in local government has attuned him to the critical needs of small organizations. At CivicMapper, Matt handles business development and R&D, leading the company to continually find and push the boundaries of geospatial technology applications.
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/mattmerc
+    - title: twitter
+      url: https://twitter.com/Geologistatlarg
+    - title: github
+      url: http://github.com/mattmerc

@@ -4,21 +4,13 @@
 	{% include head.html %}
 
 	<style>
-		.header {
-			text-align: center;
-			color: #{{site.color.tertiary}};
-			background-attachment: scroll;
+		.header-img {
 			background-image:
 				linear-gradient(
-					rgba(255,255,255, .9),
-					rgba({{ site.color.tertiary | hex_to_rgb | join: ',' }}, .4)),
-					url({{site.baseurl}}/assets/img/posts/{{ page.img}} );
-			background-position: center center;
-			background-repeat: no-repeat;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			background-size: cover;
-			-o-background-size: cover;
+					rgba(255,255,255,0.9),
+					rgba(255,255,255,0.1)
+				),
+				url({{site.baseurl}}/assets/img/posts/{{page.img}});
 		}
 	</style>
 
@@ -36,7 +28,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand page-scroll" href="/">
-					<img src="{{ site.baseurl }}{{site.logo.banner}}" class="header-logo" alt="{{site.title}}">
+					<img src="{{ site.baseurl }}/assets/img/logos/banner.svg" class="header-logo" alt="{{site.title}}">
 				</a>
 			</div>
 
@@ -53,11 +45,11 @@
 
 		<!-- hero "header" uses post title and post image -->
 
-		<div class="header">
+		<div class="header header-img">
 			<div class="container">
 				<div class="intro-text">
 					<div class="intro-heading">
-						{{ page.title }} // {{ page.date | date_to_string }}
+						{{ page.title }} <br> <span class="small">{{ page.date | date_to_string }}</span>
 					</div>
 				</div>
 			</div>

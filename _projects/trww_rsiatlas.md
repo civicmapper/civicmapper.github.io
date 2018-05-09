@@ -1,12 +1,12 @@
 ---
 layout: project
-title: 3RWW Sewer Atlas
+title: Sewer Atlas
 time: August 2015 - Ongoing
 place: Pittsburgh, Pennsylvania, USA
 client: 3 Rivers Wet Weather
 client-url: http://www.3riverswetweather.org
 client-contact: Beth Dutton, Program Manager
-header-image: trww_rsi_01.jpg
+header-image: trww_rsi_04.jpg
 thumb-image: trww_rsi_01_thumb.jpg
 tags: wastewater infrastructure, stormwater management
 ---

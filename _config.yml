@@ -2,49 +2,24 @@ url: http://www.civicmapper.com
 #baseurl: /
 
 # Site settings
-title: CivicMapper
+title: CIVICMAPPER
 email: info@civicmapper.com
 description: ""
 corporate:
   name: Civic Mapper LLC
-  date: 2016
+  date: 2018
 
-# Color palette (hex-codes without the leading hash-tag)
-# see http://www.palettable.io/be1e2d-90C5DA-4A484B-101A26-335D83
-color:
-  primary: 90C5DA 
-  secondary: be1e2d
-  tertiary: 335D83
-  text: 101A26
-  neutral: 4A484B
-  lightest-gray: f7f7f7
-
-# Font headings. Number indicates order of fallback
-font:
-  heading:
-    f1: 'Montserrat'
-    f2: Helvetica
-    f3: Arial
-    f4: sans-serif
-  body:
-    f1: 'Open Sans'
-    f2: Helvetica
-    f3: Arial
-    f4: sans-serif
-  import: 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400i,700'
-
-# Logos
-logo:
-  banner: /assets/img/logos/banner.svg
-  banner-white: /assets/img/logos/banner-white.svg
-  banner-img: /assets/img/logos/banner.png
-  icon-banner: /assets/img/logos/icon-banner.svg
-  icon: /assets/img/logos/icon.svg
-  
+# lists of things used to generate pages (other than blog, which is default)
 collections:
   projects:
     output: true
 
 # Build settings
-markdown: kramdown
 permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+sass:
+    sass_dir: _sass
+    style: compact #[nested, expanded, compact, compressed]
