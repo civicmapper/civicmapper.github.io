@@ -62,6 +62,9 @@
 					<h2 class="service-heading">{{ page.title }}</h2>
 					<h4 class="service-heading">{{ page.author }}</h4>
 					<h4 class="service-heading">{{ page.date | date_to_string }}</h4>
+					{% if page.tldr %}
+					<p class="small"><em><strong>tl;dr:</strong> {{page.tldr}}</em></p>
+					{% endif %}					
 				</div>
 				<div class="col-md-8">
 					{{ page.content }}

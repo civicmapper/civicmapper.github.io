@@ -7,35 +7,32 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<p class="large">Our team's project experience using geospatial technology spans a combined 50 years and covers a number of professional disciplines, including:</p>
+				<p class="large">Our team's project experience using geospatial technology spans a combined 50 years and covers a number of professional
+					disciplines, including:</p>
 				<p class="large">
-				<ul class="large">
-					<li>geoscience</li>
-					<li>civil infrastructure</li>
-					<li>urban/regional planning and design</li>
-					<li>municipal management</li>
-				</ul>
+					<ul class="large">
+						<li>geoscience</li>
+						<li>civil infrastructure</li>
+						<li>urban/regional planning and design</li>
+						<li>municipal management</li>
+					</ul>
 				</p>
 			</div>
 			<div class="col-sm-8">
 				<div class="row">
 					<div class="col-sm-12 portfolio-item">
 
-							<h4><a href="{{site.baseurl}}/portfolio#current" class="portfolio-link text-white">Current Projects <i class="fa fa-arrow-right fa-1x"></i></a></h4>
-							{% for project in site.projects %}
-							{% if project.category != 'past' %}
-							<div class="col-xs-4 portfolio-item">
-								<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
-									<div class="portfolio-hover">
-										<div class="portfolio-hover-content smaller">
-											<span class="small">{{ project.title}}</span>
-										</div>
-									</div>
-									<img src="{{ site.baseurl }}/assets/img/proj/{{ project.thumb-image }}" class="img-responsive" alt="">
-								</a>
-							</div>
-							{% endif %}
-							{% endfor %}
+
+						{% for project in site.projects %} {% if project.category != 'past' %}
+						<div class="col-xs-6 portfolio-item">
+							<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
+								<div class="portfolio-hover">
+									<div class="portfolio-hover-content"><h4>{{ project.title}}</h4></div>
+								</div>
+								<img src="{{ site.baseurl }}/assets/img/proj/{{ project.thumb-image }}" class="img-responsive" alt="">
+							</a>
+						</div>
+						{% endif %} {% endfor %}
 
 					</div>
 					<!-- <div class="col-sm-6 portfolio-item">
@@ -62,6 +59,18 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="row text-center">
+                <div class="col-lg-12">
+                    <div class="intro-heading">
+							<a href="{{site.baseurl}}/portfolio#current" class="portfolio-link btn btn-xl">See All Projects
+								<i class="fa fa-arrow-right fa-1x"></i>
+							</a>						
+                        <br>
+                    </div>
+                </div>
+            </div>		
+		<h4>
+				
+			</h4>
 	</div>
 </section>
