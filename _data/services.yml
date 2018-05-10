@@ -1,24 +1,28 @@
 # Services
 services:
-  - title: Mapping Projects
-    subtitle: Our geospatial and subject-area expertise applied to your projects
+  overview: Our aim is to help you get the most out of your data with available geospatial technology. To that end, we offer several flexible ways that we can work with you
+  levels:
+  - title: Map Shop
+    subtitle: Need a map? No matter the content, format, use, or audience, our geospatial and subject-area expertise can you create targeted maps, mapping applications, and geospatial analysis tools.
     desc:
       - We provide general-purpose consulting for civic organizations, bringing our geospatial and subject-area expertise to your organization's individual projects. Our consulting services include 
       - <ul><li>geospatial data collection, curation, and maintenance</li><li>web mapping application development and deployment</li><li>spatial and non-spatial data visualization</li><li>strategic planning for geographic information systems (GIS) implementation</li></ul>
       - We emphasize creating mapping solutions and data that have a long life-cycle and are able to serve the organization and the public long after the project ends.
     fa-icon: fa-map
-  - title: Virtual Geospatial Technology Officer
-    subtitle: A dedicated geospatial technology expert available to help you design and implement a geo/data strategy
+  - title: Virtual Geospatial Technology Officer (vGTO)
+    subtitle: When data and maps are important to what you do, but you need help choosing technology, building capacity, executing some project work, or just understanding the landscape of possibilities, we can help. Our vGTO service provides you with a dedicated geospatial technology professional who can help get things up and running in a sustainable way.
     desc:
       - ~A dedicated geospatial technology expert available to help you design and implement a geo/data strategy~
-    fa-icon: fa-users    
+    fa-icon: fa-user-plus  
   - title: GIS Department-as-a-Service
-    subtitle: Dedicated geospatial and web technology professionals at your disposal
+    subtitle: For teams where developing and executing a long-term geospatial technology strategy is necessary and active support at a levels is needed, we provide dedicated geospatial and web technology professionals to help tackle anything. Think of this as having your own dedicated GIS, geospatial, and database development staff in-house.
     desc:
       - Our geographic information systems (GIS) department-as-a-service is like having your own dedicated GIS, geospatial, and database development staff in-house.
       - Through an extended-term arrangement, we work side-by-side with you and your team to tackle mapping projects, spin-up data and maps, and even manage your GIS IT infrastructure.
       - By working with you over an extended period, we can help evolve the solutions we build for you.
     fa-icon: fa-users
+
+services-others:
   - title: Data Strategy
     subtitle: Making data the 2nd bullet in your organization's mission
     desc:
@@ -35,6 +39,8 @@ services:
     fa-icon: fa-cogs
 
 expertise:
+  overview: Our expertise covers the complete geospatial technology stack, and we bring with us specialized knowledge of geoscience, civil engineering, urban planning/design, and municipal management.
+  items:
   - title: Geoscience
     subtitle: geology, hydrology and groundwater, ecology, and energy
     desc:

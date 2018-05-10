@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mapping the Lead in Our Water Lines
-img: default.jpg
-thumbnail: default-thumbnail.jpg
+img: waterlines2.jpg
+thumbnail: waterlines_thumb.jpg
 author: Emily C. Mercurio & Christian Gass
 ---
 
