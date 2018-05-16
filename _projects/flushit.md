@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Flush-It!
+title: Flush It!
 time: October 2017 - Ongoing
 place: Pittsburgh, Pennsylvania, USA
 client: ALCOSAN, 3 Rivers Wet Weather

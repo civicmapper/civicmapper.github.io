@@ -8,7 +8,7 @@ client-url: http://www.3riverswetweather.org
 client-contact: Beth Dutton, Program Manager
 header-image: trww_rgi_01.jpg
 thumb-image: trww_rgi_01_thumb.jpg
-tags: green infrastructure, stormwater management
+tags: green infrastructure, stormwater management, web application development, data maintenance strategy, field mapping
 ---
 
 CivicMapper was retained by 3 Rivers Wet Weather (3RWW) to develop a unified web mapping platform to replace several disparate, legacy mapping systems and to implement a new approach to data collaboration and maintenance that would support an ongoing need for integrated watershed management and planning in the greater Pittsburgh area.
