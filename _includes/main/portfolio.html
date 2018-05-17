@@ -13,14 +13,18 @@
 		<hr>
 		<div class="row">
 			{% for project in site.projects %} {% if project.category != 'past' %}
-			<div class="col-xs-4 portfolio-item">
+			<div class="col-sm-6 col-md-4 portfolio-item">
 				<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
-					<div class="portfolio-hover">
+					<div class="portfolio-hover hidden-xs">
 						<div class="portfolio-hover-content">
 							<h4>{{ project.title}}</h4>
 						</div>
 					</div>
-					<img src="{{ site.baseurl }}/assets/img/proj/{{ project.thumb-image }}" class="img-responsive" alt="">
+					<img src="{{ site.baseurl }}/assets/img/proj/{{ project.thumb-image }}" class="img-responsive" alt="thumbnail of {{project.title}}">
+					<div class="visible-xs-block">
+						<p class="text-white">{{ project.title}}</p>
+						<hr>
+					</div>
 				</a>
 			</div>
 			{% endif %} {% endfor %}
