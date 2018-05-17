@@ -5,12 +5,13 @@
 				<h2 class="section-heading">Portfolio</h2>
 			</div>
 			<div class="col-md-8">
-				<p>CivicMapper applies and develops location-based technologies for projects concerning the natural and built environments. Our team's project experience encompasses the full spectrum of geospatial: everything from paper map cartography to serverless application architecture.</p>
+				<p>CivicMapper applies and develops location-based technologies for projects concerning the natural and built environments.
+					Our team's project experience encompasses the full spectrum of geospatial: everything from paper map cartography to
+					serverless application architecture.</p>
 			</div>
 		</div>
 		<hr>
 		<div class="row">
-
 			{% for project in site.projects %} {% if project.category != 'past' %}
 			<div class="col-xs-4 portfolio-item">
 				<a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-link">
