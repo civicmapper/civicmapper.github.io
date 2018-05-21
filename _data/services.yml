@@ -15,7 +15,7 @@ services:
       - ~A dedicated geospatial technology expert available to help you design and implement a geo/data strategy~
     fa-icon: fa-user-plus  
   - title: GIS Department-as-a-Service
-    subtitle: For teams where developing and executing a long-term geospatial technology strategy is necessary and active support at a levels is needed, we provide dedicated geospatial and web technology professionals to help tackle anything. Think of this as having your own dedicated GIS, geospatial, and database development staff in-house.
+    subtitle: For teams where developing and executing a long-term geospatial technology strategy is necessary, and/or where active support at all levels is needed, we provide dedicated geospatial and web technology professionals to help tackle anything. Think of this as having your own dedicated GIS, geospatial, and database development team in-house.
     desc:
       - Our geographic information systems (GIS) department-as-a-service is like having your own dedicated GIS, geospatial, and database development staff in-house.
       - Through an extended-term arrangement, we work side-by-side with you and your team to tackle mapping projects, spin-up data and maps, and even manage your GIS IT infrastructure.
