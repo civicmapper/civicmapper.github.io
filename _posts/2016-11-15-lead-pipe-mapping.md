@@ -120,4 +120,4 @@ And repeat. Use the data and web maps to coordinate work internally. Leverage th
 <br>
 <hr>
 
-*CivicMapper is a civic tech company that empowers civic organizations to utilize modern mapping technology for the greater good. We think we have some great ideas about tackling the lead pipe problem and would love to help solve it. We are happy to continue the conversation of lead service line mapping and detection, and how we can work together and help your organization develop cost-effective and robust solutions to this challenge:  [info@civicmapper.com](mailto:info@civicmapper.com).*
+*{{site.data.about.primary}} We think we have some great ideas about tackling the lead pipe problem and would love to help solve it. We are happy to continue the conversation of lead service line mapping and detection, and how we can work together and help your organization develop cost-effective and robust solutions to this challenge:  [info@civicmapper.com](mailto:info@civicmapper.com).*

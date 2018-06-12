@@ -39,9 +39,10 @@ ol>li {
         margin-bottom: 1.25em;
         font-size: 1.25em;
         line-height: 1.5em;
-    } // ul>li, ol>li {
-    //     font-size: 1.25rem;
-    // }
+    } 
+    ul>li, ol>li {
+        font-size: 1.25em;
+    }
     .large {
         font-size: 150%;
     }
@@ -72,7 +73,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h1>a,
+h2>a,
+h3>a,
+h4>a,
+h5>a,
+h6>a,
+ {
     text-transform: uppercase;
     font-family: $font-family-headings;
     /*font-weight: 700;*/
