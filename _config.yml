@@ -13,6 +13,8 @@ corporate:
 collections:
   projects:
     output: true
+  sectors:
+    output: true
 
 # Build settings
 permalink: pretty

@@ -10,7 +10,7 @@
 					rgba(51, 93, 131, 0.9),
 					rgba(51, 93, 131, 0.3)
 				),
-				url({{ site.baseurl }}/assets/img/proj/{{ page.header-image }});
+				url({{ site.baseurl }}/assets/img/verts/{{ page.header-image }});
 		}
 	</style>
 
@@ -36,7 +36,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="{{site.baseurl}}/portfolio" ><<< Portfolio</a>
+							<a href="{{site.baseurl}}/sectors" ><<< Sectors</a>
 						</li>
 					</ul>
 				</div>
@@ -45,39 +45,31 @@
 
 		<div class="header header-img">
 			<div class="container">
+
 				<div class="intro-text">
+					<p class="text-white">Who we help:</p>
 					<div class="intro-heading text-white">
 						{{ page.title }}
 					</div>
-					{% if page.category == 'past' %}
-					<div>
-						<p>{{page.whowith}}*</p>
-					</div>
-					{% endif %}
 				</div>
 			</div>
 		</div>
 
 		<div class="container">
 
-			<div class="row post-row">
-				<div class="col-md-4 bg-light-gray">
-					<h2 class="hidden-xs hidden-s">{{ page.title }}</h2>
-					<h3 class="service-heading">{{ page.client }}</h3>
-					<hr>
-					<h4 class="service-heading">{{ page.place }}</h4>
-					<h4 class="service-heading">{{ page.time }}</h4>
-					<hr>
-					{% for tag in page.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}
-					<br>
-				</div>
-				<div class="col-md-8">
-					{{ page.content }}
-					{% if page.category == 'past' %}
-					<p class="smaller text-tertiary"><em>* This project was undertaken by CivicMapper team member {{page.whowith}}. Images and content are the rights of their respective owners.</em></p>
-					{% endif %}
-				</div>
-			</div>
+				<div class="row post-row">
+						<div class="col-md-4 bg-light-gray">
+							<h2 class="hidden-xs hidden-s">{{ page.title }}</h2>
+							<hr>
+							<p class="service-heading"><em>{{ page.short }}</em></p>
+							<hr>
+							{% for tag in page.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}
+							<br>
+						</div>
+						<div class="col-md-8">
+							{{ page.content }}
+						</div>
+					</div>
 
 		</div>
 		{% include footer.html %}

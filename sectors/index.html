@@ -1,0 +1,41 @@
+---
+layout: services
+---
+
+<section id="sectors-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="section-heading">Who We Help</h1>
+			</div>
+		</div>
+		<div class="row">
+			{% assign sortedSectors = site.sectors | sort_by:ordering %}
+			{% for sector in sortedSectors %}
+			{% if sector.short %}
+			<div class="col-md-12 portfolio-item">
+				<hr>
+				<div class="row">
+					<div class="col-md-5">
+						<a href="{{ site.baseurl }}{{ sector.url }}" class="portfolio-link">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<i class="fa fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img src="../assets/img/verts/{{ sector.thumb-image }}" style="width:100%;" alt="">
+						</a>
+					</div>
+					<div class="col-md-7">
+						<h2>{{ sector.title}}</h2>
+						<p>{{ sector.short }}</p>
+						<hr>
+						{% for tag in sector.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}
+					</div>
+				</div>
+			</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
