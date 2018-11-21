@@ -1,7 +1,7 @@
 ---
 layout: sector
 title: Non-Profits
-short: Extend the organization's mission to include public geodata stewardship
+short: Guidance and technical muscle to help civic organizations excel in public geodata stewardship
 header-image: nonprofit1@web.jpg
 thumb-image: nonprofit1@thumb.jpg
 tags:

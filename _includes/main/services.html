@@ -6,16 +6,23 @@
 
                 <!-- Section Header -->
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <h2 class="section-heading">{{site.data.services.title}}</h2>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <p class="service-heading">{{site.data.services.overview}}</p>
                     </div>
                 </div>
 
                 <!-- Who We Help -->
                 <div class="row">
+                    <!-- <hr>
+                    <div class="col-lg-3">
+                        <h3 class="section-heading">{{site.data.services.who.title}}</h3>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="section-heading">{{site.data.services.who.overview}}</p>
+                    </div> -->
                     <div class="col-md-12">
                         <h3 class="section-heading">{{site.data.services.who.title}}</h3>
                         <p class="section-heading">{{site.data.services.who.overview}}</p>
@@ -26,22 +33,23 @@
                     {% for sector in site.sectors %}
                     {% if sector.short %}
                     <div class="col-md-4 portfolio-item">
-                            <a href="{{ site.baseurl }}{{ sector.url }}" class="portfolio-link">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-plus fa-3x"></i>
-                                    </div>
+                        <a href="{{ site.baseurl }}{{ sector.url }}" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
                                 </div>
-                                <img src="{{ site.baseurl }}/assets/img/verts/{{ sector.thumb-image }}" class="img-responsive img-centered" alt="">
-                            </a>
-                            <h4 class="text-secondary">{{ sector.title }}</h4>
-                        </div>
+                            </div>
+                            <img src="{{ site.baseurl }}/assets/img/verts/{{ sector.thumb-image }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <h3 class="text-tertiary">{{ sector.title }}</h3>
+                    </div>
                     {% endif %}
                     {% endfor %}
                 </div>
 
                 <!-- How We Help -->
                 <div class="row">
+                    <hr>
                     <div class="col-md-12">
                         <h3 class="section-heading">{{site.data.services.how.title}}</h3>
                         <p class="section-heading">{{site.data.services.how.overview}}</p>

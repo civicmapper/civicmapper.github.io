@@ -809,6 +809,7 @@ body {
     text-transform: uppercase;
     font-size: 3rem;
     line-height: 3rem;
+    font-family: $font-family-headings;
 }
 
 @media(min-width:768px) {
@@ -828,6 +829,7 @@ body {
         text-transform: uppercase;
         font-size: 75px;
         line-height: 75px;
+        font-family: $font-family-headings;
     }
 }
 

@@ -15,6 +15,6 @@ We provide:
 
 * Developing focused web-based GIS applications that streamline business processes
 * Geodata development and data management that map the terrain for land, leasing, pipelines and facilities central to your projects
-* Support for drone based data collection, and the development of data products like 3D models or augmented imagery that lets you overlay new drone based data on top of existing maps
+* Support for drone based data collection, and the development of data products like 3D models or augmented imagery to use with new data or existing maps
 * Evaluation and optimization of mapping and technology strategies
 * Support for geologic mapping of subsurface assets

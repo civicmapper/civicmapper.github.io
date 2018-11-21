@@ -15,7 +15,7 @@ For Water, Sewer, or Stormwater authorities that need to combine datasets and sy
 
 We provide:
 
-* General GIS such as geospatial data creation and editing support to augment the specialized GIS expertise
-* GIS for "linear assets" you might already have for infrastructure maintenance.
-* Implementation support to set up a full scale GIS implementation across your enterprise.
-* Web based GIS maps that let you interact with your data when you aren’t at your desk.
+* Geospatial data creation and editing support to augment specialized GIS expertise
+* GIS design and custom application development for linear or networked assets
+* Implementation support to set up a full scale GIS implementation across your enterprise
+* Web based GIS maps that let you interact with your data when you aren’t at your desk

@@ -1,13 +1,13 @@
 # Clients and Services
 
-title: Mapping and Spatial Analysis, Applied
+title: Services
 overview: CivicMapper helps our customers better understand, address, and implement solutions through the use and development of geodata and geospatial technology.
 who:
   title: Who We Help
-  overview: We clients in private and public sector organizations from numerous sectors and specialties use geospatial data and technology effectively.
+  overview: We help clients in numerous sectors use geospatial data and technology effectively.
 how:
   title: How We Help
-  overview: We think it makes sense to approach our work in a way that allows room for creative design and problem-solving processes to flourish. We'll work with you to define our engagement in terms of discrete goals, deliverables, and projects. To that end, we offer several flexible ways to work with you.
+  overview: We think it makes sense to approach our work in a way that allows room for creative design and problem-solving processes to flourish. To that end, we offer several straightforward and flexible ways to work with you, from fixed-fee project-focused engagements to retainer-based contracts.
   levels:
   - title: Map Shop
     short: Have a project that "needs a map"? That can mean a lot of things! We bring to bear our geospatial technology expertise to create focused digital or paper maps, custom mapping applications, geodatabases for your data, or geospatial analysis tools for your workflows&mdash;any content, format, use, or audience.
@@ -18,7 +18,7 @@ how:
       - We assume there is going to be iteration on these projects, and prefer a "not-to-exceed", flat-fee billing model. It makes for easier budgeting for you, less administration overhead for us, and room for creativity in the work we do for you.
     fa-icon: fa-map
   - title: Virtual Geospatial Technology Officer (vGTO)
-    short: When you know that maps and geodata are important to what you do...but you need help. Whether it's choosing technology, building staff technical capacity, executing some project work, or just understanding the landscape of possibilities, we can help. Our vGTO service provides you with a dedicated geospatial technology professional who can help get things up and running in a sustainable way.
+    short: When you know that maps and geodata are important to what you do, but you need help. Whether it's choosing technology, building staff technical capacity, executing some project work, or just understanding the landscape of possibilities, we can help. Our vGTO service provides you with a dedicated geospatial technology professional who can help get things up and running in a sustainable way.
     long:
       - ~A dedicated geospatial technology expert available to help you design and implement a geo/data strategy~
     fa-icon: fa-user-plus
