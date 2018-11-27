@@ -36,7 +36,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="{{site.baseurl}}/sectors" ><<< Sectors</a>
+							<a href="{{site.baseurl}}/#who-we-help" ><<< Who We Help</a>
 						</li>
 					</ul>
 				</div>
@@ -58,13 +58,12 @@
 		<div class="container">
 
 				<div class="row post-row">
-						<div class="col-md-4 bg-light-gray">
+						<div class="col-md-4">
+							<hr>
 							<h2 class="hidden-xs hidden-s">{{ page.title }}</h2>
-							<hr>
 							<p class="service-heading"><em>{{ page.short }}</em></p>
-							<hr>
 							{% for tag in page.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}
-							<br>
+							<hr>
 						</div>
 						<div class="col-md-8">
 							{{ page.content }}

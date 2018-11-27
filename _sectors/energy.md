@@ -6,7 +6,14 @@ header-image: engineering2@web.jpg
 thumb-image: engineering2@thumb.jpg
 tags:
     - energy
-ordering: 4
+    - land managers
+    - leasing
+    - facilities
+    - topography
+    - subsurface
+    - drone survey
+    - terrain
+ordering: 6
 ---
 
 For Land, Regulatory, and Exploration managers at energy companies who are frustrated by inaccurate publicly-sourced data, CivicMapper can create accurate data and focused web applications to streamline business processes.

@@ -13,8 +13,15 @@ layout: services
 			</div>
 		</div>
 		<div class="row">
-			{% assign sortedSectors = site.sectors | sort_by:ordering %}
-			{% for sector in sortedSectors %}
+			{% for sector in site.sectors %}
+			{% if forloop.first %}
+				{% assign sector_count = forloop.length %}
+			{% endif %}
+			{% endfor %}
+
+			{% for i in (1..sector_count) %}
+			{% for sector in site.sectors %}
+			{% if i == sector.ordering %}
 			{% if sector.short %}
 			<div class="col-md-12 portfolio-item">
 				<hr>
@@ -38,6 +45,8 @@ layout: services
 				</div>
 			</div>
 			{% endif %}
+			{% endif %}
+			{% endfor %}
 			{% endfor %}
 		</div>
 	</div>

@@ -11,49 +11,74 @@
                     </div>
                     <div class="col-md-8">
                         <p class="service-heading">{{site.data.services.overview}}</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                    <a href="#who-we-help" class="page-scroll">Who We Help
+                                        <i class="fa fa-arrow-down fa-1x"></i>
+                                    </a>
+                            </div>
+                            <div class="col-sm-6">
+                                    <a href="#how-we-help" class="page-scroll">How We Help
+                                        <i class="fa fa-arrow-down fa-1x"></i>
+                                    </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Who We Help -->
+                <div id="who-we-help"><br></div>
                 <div class="row">
-                    <!-- <hr>
-                    <div class="col-lg-3">
-                        <h3 class="section-heading">{{site.data.services.who.title}}</h3>
-                    </div>
-                    <div class="col-lg-9">
-                        <p class="section-heading">{{site.data.services.who.overview}}</p>
-                    </div> -->
+                    <hr>
                     <div class="col-md-12">
                         <h3 class="section-heading">{{site.data.services.who.title}}</h3>
                         <p class="section-heading">{{site.data.services.who.overview}}</p>
-                        <hr>
                     </div>
                 </div>
                 <div class="row">
                     {% for sector in site.sectors %}
-                    {% if sector.short %}
-                    <div class="col-md-4 portfolio-item">
-                        <a href="{{ site.baseurl }}{{ sector.url }}" class="portfolio-link">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
+                        {% if forloop.first %}
+                            {% assign sector_count = forloop.length %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% for i in (1..sector_count) %}
+                    {% for sector in site.sectors %}
+                        {% if i == sector.ordering %}
+                            {% if sector.short %}
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <!-- <h3 class="text-tertiary">{{ sector.title }}</h3> -->
+                                <a href="{{ site.baseurl }}{{ sector.url }}" class="portfolio-link">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-overlay-content">
+                                            <h4>{{ sector.title }}</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img
+                                        src="{{ site.baseurl }}/assets/img/verts/{{ sector.thumb-image }}"
+                                        class="img-responsive img-centered"
+                                        alt=""
+                                    >
+                                </a>
                             </div>
-                            <img src="{{ site.baseurl }}/assets/img/verts/{{ sector.thumb-image }}" class="img-responsive img-centered" alt="">
-                        </a>
-                        <h3 class="text-tertiary">{{ sector.title }}</h3>
-                    </div>
-                    {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
                     {% endfor %}
                 </div>
 
                 <!-- How We Help -->
+                <div id="how-we-help"><br></div>
                 <div class="row">
                     <hr>
                     <div class="col-md-12">
                         <h3 class="section-heading">{{site.data.services.how.title}}</h3>
                         <p class="section-heading">{{site.data.services.how.overview}}</p>
-                        <hr>
                     </div>
                 </div>
                 <div class="row">
