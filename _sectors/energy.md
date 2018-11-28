@@ -2,8 +2,8 @@
 layout: sector
 title: Energy Companies
 short: Curated geodata and focused web mapping applications for more efficient business processes
-header-image: engineering2@web.jpg
-thumb-image: engineering2@thumb.jpg
+header-image: energy1@web.jpg
+thumb-image: energy1@thumb.jpg
 tags:
     - energy
     - land managers
