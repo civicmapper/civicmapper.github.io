@@ -4,7 +4,7 @@ title: Green Infrastructure Atlas
 time: April 2015 - Ongoing
 place: Pittsburgh, Pennsylvania, USA
 client: 3 Rivers Wet Weather
-client-url: http://www.3riverswetweather.org
+client-url: https://www.3riverswetweather.org
 client-contact: Beth Dutton, Program Manager
 header-image: trww_rgi_01.jpg
 thumb-image: trww_rgi_01_thumb.jpg

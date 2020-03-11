@@ -40,6 +40,6 @@ After the final `---`, begin typing your post.
 
 ## Using Prose.io
 
-[Prose.io](http://prose.io) is an online text editor made with writing and publishing blog posts like this in mind.
+[Prose.io](https://prose.io) is an online text editor made with writing and publishing blog posts like this in mind.
 
 A key difference is that once you've published a post with prose.io, you access the Front Matter from the **metadata** window.

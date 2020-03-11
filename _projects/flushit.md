@@ -4,12 +4,12 @@ title: Flush It!
 time: October 2017 - Ongoing
 place: Pittsburgh, Pennsylvania, USA
 client: ALCOSAN, 3 Rivers Wet Weather
-client-url: http://www.3riverswetweather.org
+client-url: https://www.3riverswetweather.org
 client-contact: Beth Dutton, Program Manager
 header-image: flushit.jpg
 thumb-image: flushit_thumb.png
 tags: wastewater infrastructure, outreach, engagement, exploration, education
-project-url: http://flush-it.civicmapper.com
+project-url: https://flush-it.civicmapper.com
 code-url: https://github.com/civicmapper/flush-it
 ---
 

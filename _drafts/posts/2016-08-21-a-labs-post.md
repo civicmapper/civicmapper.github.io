@@ -8,7 +8,7 @@ author: Emily C. Mercurio & Christian Gass
 
 The lead-pipe water crisis in Flint, Michigan in 2015 dramatically raised the awareness of our nation’s municipal water quality and the serious health threats associated with lead pipes, fittings, and solder used in drinking water service lines in American communities.
 
-Elevated lead concentrations in drinking water is not unique to Michigan or here in Pennsylvania, nor is the problem limited to older cities with aging infrastructure: the problem is epidemic across most of the United States. [An Associated Press study from April 2016](http://interactives.ap.org/2016/tainted-at-the-tap/) reported that about 1,400 water systems serving 3.7 million people in 49 U.S. states have exceeded the EPA standard for lead at least once since 2013.
+Elevated lead concentrations in drinking water is not unique to Michigan or here in Pennsylvania, nor is the problem limited to older cities with aging infrastructure: the problem is epidemic across most of the United States. [An Associated Press study from April 2016](https://interactives.ap.org/2016/tainted-at-the-tap/) reported that about 1,400 water systems serving 3.7 million people in 49 U.S. states have exceeded the EPA standard for lead at least once since 2013.
 
 How did this all come to pass? And how does local government tackle such a seemingly massive and complex infrastructure issue?
 
@@ -25,15 +25,15 @@ The EPA stated it will work with states and stakeholders to identify strategies 
 
 In March 2016, [Pennsylvania responded to EPA’s letter ](https://www.epa.gov/sites/production/files/2016-04/documents/pa_response_to_feb_29_letter_508.pdf) and disclosed that **54 of 3,054** water systems in the state did not comply with the Lead and Copper Rule but were in the process of becoming compliant or have initiated corrective action. The letter outlined a general plan for each of the five near-term action items stated in the EPA letter to State Commissioners. It also stated that the commonwealth would work with public water systems to publicly post information that pertains to water sampling and tap locations, but did not imply that the state will help public water systems with mapping of lead service lines.
 
-Development of lead pipe maps, and any other water system distribution maps, will thus be handled by local governments and water authorities. In Pennsylvania, [state code §109.706 defines the requirements for community and noncommunity water system distribution maps.](http://www.pacode.com/secure/data/025/chapter109/chap109toc.html)
+Development of lead pipe maps, and any other water system distribution maps, will thus be handled by local governments and water authorities. In Pennsylvania, [state code §109.706 defines the requirements for community and noncommunity water system distribution maps.](https://www.pacode.com/secure/data/025/chapter109/chap109toc.html)
 
 ### Pittsburgh (and other PA municipalities)
 
-In July 2016, the [Pittsburgh Water and Sewer Authority (PWSA) was ordered by the state Department of Environmental Protection (DEP) to replace lead service lines ](http://www.post-gazette.com/local/city/2016/07/13/PWSA-ordered-to-replace-lead-service-lines-after-elevated-levels-found-in-drinking-water/stories/201607130099) after drinking water testing revealed lead levels above the [EPA maximum standard ](https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water#regs) in 17% of homes where lead pipes were suspected or known.
+In July 2016, the [Pittsburgh Water and Sewer Authority (PWSA) was ordered by the state Department of Environmental Protection (DEP) to replace lead service lines ](https://www.post-gazette.com/local/city/2016/07/13/PWSA-ordered-to-replace-lead-service-lines-after-elevated-levels-found-in-drinking-water/stories/201607130099) after drinking water testing revealed lead levels above the [EPA maximum standard ](https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water#regs) in 17% of homes where lead pipes were suspected or known.
 
 Mr. David Donahoe, the PWSA interim executive director, stated that the **pipeline inventory** will be the biggest challenge because *no centralized currently inventory exists*. Some paper records have been accounted for, and some digital data is available, but a complete, asset-level operational dataset of water service lines does not exist. Pittsburgh is actively replacing lead service lines as they are found during sidewalk repairs and other city maintenance, but this strategy is time-consuming and difficult to quantify or prepare for.
 
-Pittsburgh is one of many areas in the state that has been dealing with elevated lead levels over the past few years. [Lancaster County has identified 17 water systems](http://www.usatoday.com/story/news/nation/2016/03/16/lancaster-county-pa-lead-drinking-water/81576034/) with lead levels above the EPA standard, leading the city of Lancaster to replace 98% of their lead service lines. [Philadelphia has an estimated 60,000 properties with lead service lines of unknown age, but no location maps exist](http://crossroads.newsworks.org/index.php/local/keystone-crossroads/91899-utilities-dont-know-where-lead-pipes-are-and-water-testing-offers-limited-safety-assurances). The problem in Philadelphia is further complicated because the service lines there are private and the Philadelphia Water Department is not responsible for them.
+Pittsburgh is one of many areas in the state that has been dealing with elevated lead levels over the past few years. [Lancaster County has identified 17 water systems](https://www.usatoday.com/story/news/nation/2016/03/16/lancaster-county-pa-lead-drinking-water/81576034/) with lead levels above the EPA standard, leading the city of Lancaster to replace 98% of their lead service lines. [Philadelphia has an estimated 60,000 properties with lead service lines of unknown age, but no location maps exist](https://crossroads.newsworks.org/index.php/local/keystone-crossroads/91899-utilities-dont-know-where-lead-pipes-are-and-water-testing-offers-limited-safety-assurances). The problem in Philadelphia is further complicated because the service lines there are private and the Philadelphia Water Department is not responsible for them.
 
 
 ### Successful mapping precedents
@@ -42,10 +42,10 @@ The problem shared by the majority of the affected communities is the lack of an
 
 However, if you're not convinced a map is the starting point, take a look at these water authority maps:
 
-* [Boston Water and Sewer Commission](http://www.bwsc.org/COMMUNITY/lead/leadmaps.asp#TOP_PAGE)
+* [Boston Water and Sewer Commission](https://www.bwsc.org/COMMUNITY/lead/leadmaps.asp#TOP_PAGE)
 * [District of Columbia Water and Sewer Authority](https://geo.dcwater.com/Lead/)
-* [Kalamazoo Department of Public Services](http://www.mlive.com/news/kalamazoo/index.ssf/2016/03/are_your_water_pipes_made_of_l.html)
-* [Seattle Public Utilities](http://seattlecitygis.maps.arcgis.com/apps/webappviewer/index.html?id=9a9ad4748a8e41d3bfddd80bc447c3b7).
+* [Kalamazoo Department of Public Services](https://www.mlive.com/news/kalamazoo/index.ssf/2016/03/are_your_water_pipes_made_of_l.html)
+* [Seattle Public Utilities](https://seattlecitygis.maps.arcgis.com/apps/webappviewer/index.html?id=9a9ad4748a8e41d3bfddd80bc447c3b7).
 
 These maps provide examples of what a web-based lead pipe map can look like and how it can interface with the public.
 
@@ -75,7 +75,7 @@ Focus first on scoping the operational data picture. Once the data picture begin
 
 ### **2. Use available commodity geographic information systems (GIS) products *for the web*, and configure them for the people who are going to use them**
 
-A plethora of web-facing mapping software to do this support this process already exists, is robust and can do handle job, is affordable, and can be spun-up quickly. [ArcGIS Online](www.arcgis.com). [Boundless Exchange](http://boundlessgeo.com/exchange/). [CARTO](https://carto.com/). [Mapbox](https://www.mapbox.com/). It doesn't matter. They're all in the cloud. All support open data formats. All can be secured (though in some cases that requires ponying up some cash). Don't feel the need to build a custom solution. Use one of these to tailor built-to-purpose maps and tools for the tasks at hand.
+A plethora of web-facing mapping software to do this support this process already exists, is robust and can do handle job, is affordable, and can be spun-up quickly. [ArcGIS Online](www.arcgis.com). [Boundless Exchange](https://boundlessgeo.com/exchange/). [CARTO](https://carto.com/). [Mapbox](https://www.mapbox.com/). It doesn't matter. They're all in the cloud. All support open data formats. All can be secured (though in some cases that requires ponying up some cash). Don't feel the need to build a custom solution. Use one of these to tailor built-to-purpose maps and tools for the tasks at hand.
 
 This whole process really demands using a geospatial database for the web. PostGIS/PostgreSQL is free, proven, and well supported spatial database, and there are plenty of ways to expose its data and/or data subsets to the web with tiered security. There are other options, too. Start with any of them. Just say no to local file system storage: don't start with a non-spatial solution that sits on a desktop or on some consultant's internal server (sorry, MS Access fans). And please (seriously, please): don't start building out the inventory dataset in a CAD drawing.
 
@@ -126,7 +126,7 @@ This is where the 3 part approach--particularly the agile data (#3) and scaled w
 2. Work with engineers and experts in the field to:
   * identify tools available for sensor-based lead detection
   * identify places for water sampling campaigns
-  * (also: research new techniques for locating lead service lines, building upon what is already known from [testing of previously used technologies](http://www.waterrf.org/PublicReportLibrary/RFR90678_1995_813.pdf)).
+  * (also: research new techniques for locating lead service lines, building upon what is already known from [testing of previously used technologies](https://www.waterrf.org/PublicReportLibrary/RFR90678_1995_813.pdf)).
 3. Use the combination of existing data with sample and sensor data to:
   * drive predictive modeling of missing or incomplete pipe data
   * inform the next round of data collection

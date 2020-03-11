@@ -9,7 +9,7 @@ client-contact:
 header-image:
 thumb-image: cg_edgm_thumb.jpg
 tags: urban design, geodesign
-whowith: Christian Gass, w/ <a href="http://www.o2design.com">O2 Planning + Design, Inc.</a>
+whowith: Christian Gass, w/ <a href="https://www.o2design.com">O2 Planning + Design, Inc.</a>
 category: past
 ---
 

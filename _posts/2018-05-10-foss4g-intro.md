@@ -30,7 +30,7 @@ As with any software tutorial, check the date. If you're reading this a year aft
 
 With that, we're going to start at the bottom and work our way to the top:
 
-# Command Line with [Cmder](http://cmder.net/)
+# Command Line with [Cmder](https://cmder.net/)
 
 ## Why
 
@@ -44,7 +44,7 @@ The reality is: there is a wide, wide world out there, GIS-button-clickers, and 
 
 ## What
 
-The day I discovered [Cmder](http://cmder.net/) was the day I stopped fearing the command line. Get it. It's a console emulator and it's wonderful.
+The day I discovered [Cmder](https://cmder.net/) was the day I stopped fearing the command line. Get it. It's a console emulator and it's wonderful.
 
 <a href="{{site.baseurl}}/assets/img/posts/foss4g_starter_cmder.jpg" class="thumbnail">
     <img class="img-responsive" src="{{site.baseurl}}/assets/img/posts/foss4g_starter_cmder.jpg" title="Cmder in action, running multiple consoles and looking fantastic while doing it." alt="Screenshot of Cmder"/>
@@ -74,7 +74,7 @@ For everyday Python use it is nice to have, at the very least, a clean "global" 
 
 Since version 3.4, Python 3 installers for Windows from [python.org](https://www.python.org/downloads/) handle making different versions of Python available through the command line relatively easy. With this, you also get command line access to `pip`, the Python package manager. `pip` lets you install packages from [PyPi](https://pypi.org/) that provide functionality above and beyond the standard Python library.
 
-The [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/starting/install3/win/) has a good guide for installing Python on Windows.
+The [Hitchhiker's Guide to Python](https://docs.python-guide.org/en/latest/starting/install3/win/) has a good guide for installing Python on Windows.
 
 Once you've got it running, you'll be ready to start a great journey. Start small at first, replacing chained point/click tasks with small scripts. Then make those scripts generic. Eventually, you'll be able to migrate some of your desktop GIS, browser, and spreadsheet-based tasks into automated workflows. The learning process will change how think about working with spatial data.
 
@@ -98,7 +98,7 @@ If you go this route, just note that the [`pipenv`](https://docs.pipenv.org/) re
 
 As a desktop GIS user, you'll likely want to do things with tabular data. In the past you might have exported your data to a tabular file (e.g., `csv`) or document (e.g., `xlsx`) and loaded it up in Excel or LibreOffice. You've probably also used the table management tools natively available in your desktop GIS to select records, add/remove fields, run field calculations, and summarize data. 
 
-To that end, a final recommendation: check out [PETL](http://petl.readthedocs.io/en/latest/). PETL provides a nice, beginner-friendly interface for interactively **e**xtracting, **t**ransforming, and **l**oading (ETL) tabular data with Python.
+To that end, a final recommendation: check out [PETL](https://petl.readthedocs.io/en/latest/). PETL provides a nice, beginner-friendly interface for interactively **e**xtracting, **t**ransforming, and **l**oading (ETL) tabular data with Python.
 
 <a href="{{site.baseurl}}/assets/img/posts/foss4g_starter_python_petl.jpg" class="thumbnail">
     <img class="img-responsive" src="{{site.baseurl}}/assets/img/posts/foss4g_starter_python_petl.jpg" title="Python, running in Cmder, demonstrating a basic ETL process with Python-PETL." alt="Screenshot of Python running Cmder, and working with Python PETL"/>

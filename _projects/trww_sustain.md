@@ -4,12 +4,12 @@ title: SUSTAIN Data Extractor
 time: April 2015 - Ongoing
 place: Pittsburgh, Pennsylvania, USA
 client: 3 Rivers Wet Weather
-client-url: http://www.3riverswetweather.org
+client-url: https://www.3riverswetweather.org
 client-contact: Beth Dutton, Program Manager
 header-image: trww_sustainextract_01.jpg
 thumb-image: trww_sustainextract_thumb.jpg
 tags: green infrastructure, stormwater management, ETL, municipal data support, outreach
-project-url: http://3rww.github.io/sustain
+project-url: https://3rww.github.io/sustain
 code-url: https://github.com/3rww/sustain
 ---
 

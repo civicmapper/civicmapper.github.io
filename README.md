@@ -1,6 +1,6 @@
 # Civic Mapper LLC website (v.4.0)
 
-This site was built using the *Agency Jekyll theme*,  based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+This site was built using the *Agency Jekyll theme*,  based on [Agency bootstrap theme ](https://startbootstrap.com/templates/agency/)
 
 ===
 
@@ -28,4 +28,4 @@ Team members and info are added via  `_data/contact.yml`. Team member images sho
 
 =========
 
-For more details on Jekyll, read [documentation](http://jekyllrb.com/), specifically docs on [directory structure](https://jekyllrb.com/docs/structure/), which explain where files need to be and how to use liquid templates in order to generate the site.
+For more details on Jekyll, read [documentation](https://jekyllrb.com/), specifically docs on [directory structure](https://jekyllrb.com/docs/structure/), which explain where files need to be and how to use liquid templates in order to generate the site.
