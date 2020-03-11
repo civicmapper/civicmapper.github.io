@@ -1,4 +1,4 @@
- <!-- jQuery Version 1.11.0 -->
+    <!-- jQuery Version 1.11.0 -->
     <script src="{{ "/assets/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -28,3 +28,15 @@
       ga('send', 'pageview');
     
     </script>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", function(user) {
+          if (!user) {
+            window.netlifyIdentity.on("login", function() {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>    
