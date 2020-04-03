@@ -401,7 +401,12 @@ section h3.section-subheading {
 }
 
 .service-heading {
+    margin: 15px 0;
     text-transform: none;
+  }
+.service-desc {
+    font-size: 1.25rem;
+    color: $tertiary;
 }
 
 .portfolio-item {
@@ -819,9 +824,9 @@ body {
 
 .header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 2rem;
     line-height: 22px;
+    color: $tertiary;
 }
 
 .header .intro-text .intro-heading {
@@ -840,8 +845,7 @@ body {
     }
     .header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-size: 40px;
-        font-style: italic;
+        font-size: 2rem;
         line-height: 40px;
     }
     .header .intro-text .intro-heading {
@@ -986,4 +990,28 @@ section#portfolio {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.feature_i{
+
+	border:2px solid $primary;
+	
+}
+
+
+
+.feature_i:after {
+	
+	box-shadow: 0 0 0 2px $primary;
+	
+}
+.feature_i:hover {
+	background: $primary;
+	
+}
+
+
+.f_icon{
+	color: $primary;
+	
 }

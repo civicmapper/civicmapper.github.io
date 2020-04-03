@@ -9,21 +9,47 @@
                 <p class="large">{{site.data.about.secondary}}</p>
             </div>
         </div>
+        <hr>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
+                <p class="large">We offer expertise in:</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-1"></div>
+            {% for each in site.data.services.how.levels%}
+            <div class="col-md-2">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa {{each.fa-icon}} fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">{{each.title}}</h4>
+            </div>
+            {% endfor %}               
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 text-center">
                 <h3 class="large">
                     <a href="#portfolio" class="page-scroll">See the work we've done
                         <i class="fa fa-arrow-down fa-1x"></i>
                     </a>
                 </h3>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4 text-center">
                 <h3 class="large">
                     <a href="#services" class="page-scroll">See what we can do for you
                         <i class="fa fa-arrow-down fa-1x"></i>
                     </a>
                 </h3>
             </div>
+            <div class="col-md-4 text-center">
+                <h3 class="large">
+                    <a href="#contact" class="page-scroll">Get In Touch
+                        <i class="fa fa-arrow-down fa-1x"></i>
+                    </a>
+                </h3>
+            </div>            
         </div>
     </div>
 </section>

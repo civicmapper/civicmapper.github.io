@@ -26,6 +26,34 @@
                     </div>
                 </div>
 
+                <!-- How We Help -->
+                <div id="how-we-help"><br></div>
+                <div class="row">
+                    <hr>
+                    <div class="col-md-12">
+                        <h3 class="section-heading">{{site.data.services.how.title}}</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        {% for each in site.data.services.how.levels offset%}             
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa {{each.fa-icon}} fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="col-md-9">
+                                <h4 class="service-heading">{{each.title}}</h4>
+                                <p class="service-desc">{{each.short}}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>                
+
                 <!-- Who We Help -->
                 <div id="who-we-help"><br></div>
                 <div class="row">
@@ -72,33 +100,8 @@
                     {% endfor %}
                 </div>
 
-                <!-- How We Help -->
-                <div id="how-we-help"><br></div>
-                <div class="row">
-                    <hr>
-                    <div class="col-md-12">
-                        <h3 class="section-heading">{{site.data.services.how.title}}</h3>
-                        <p class="section-heading">{{site.data.services.how.overview}}</p>
-                    </div>
-                </div>
-                <div class="row">
-                    {% for each in site.data.services.how.levels %}
-                    {% if each.short %}
-                    <div class="col-md-4">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h2 class="panel-title text-secondary">
-                                    <i class="fa {{each.fa-icon}}"></i> {{each.title}}
-                                </h2>
-                            </div>
-                            <div class="panel-body">
-                                {{each.short}}
-                            </div>
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
+
+
             </div>
         </div>
     </div>
