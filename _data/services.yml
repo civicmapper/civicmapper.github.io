@@ -9,39 +9,18 @@ how:
   title: How We Help
   overview: We think it makes sense to approach our work in a way that allows room for creative design and problem-solving processes to flourish. To that end, we offer several straightforward and flexible ways to work with you, from fixed-fee project-focused engagements to retainer-based contracts.
   levels:
-  - title: Mapping Projects
-    short: Have a project that "needs a map"? That can mean a lot of things! We bring to bear our geospatial technology expertise to create focused digital or paper maps, custom mapping applications, geodatabases for your data, or geospatial analysis tools for your workflows&mdash;any content, format, use, or audience.
-    long:
-      - We provide general-purpose consulting for civic organizations, bringing our geospatial and subject-area expertise to your organization's individual projects. Our consulting services include
-      - <ul><li>geospatial data collection, curation, and maintenance</li><li>web mapping application development and deployment</li><li>spatial and non-spatial data visualization</li><li>strategic planning for geographic information systems (GIS) implementation</li></ul>
-      - We emphasize creating mapping solutions and data that have a long life-cycle and are able to serve the organization and the public long after the project ends.
-      - We assume there is going to be iteration on these projects, and prefer a "not-to-exceed", flat-fee billing model. It makes for easier budgeting for you, less administration overhead for us, and room for creativity in the work we do for you.
-    fa-icon: fa-map
-  - title: Virtual Geospatial Technology Officer (vGTO)
-    short: When you know that maps and geodata are important to what you do, but you need help. Whether it's choosing technology, building staff technical capacity, executing some project work, or just understanding the landscape of possibilities, we can help. Our vGTO service provides you with a dedicated geospatial technology professional who can help get things up and running in a sustainable way.
-    long:
-      - ~A dedicated geospatial technology expert available to help you design and implement a geo/data strategy~
-    fa-icon: fa-user-plus
-  - title: GIS Department-as-a-Service
-    short: For teams where developing and executing a long-term geospatial technology strategy is necessary, and/or where active GIS support is needed for an extended period of time (think projects lasting 6+ months), we can provide dedicated geospatial and web technology professionals to help tackle anything. Think of this as having your own dedicated GIS, geospatial, and geo-database development team on-call or in-house.
-    long:
-      - Our geographic information systems (GIS) department-as-a-service is like having your own dedicated GIS, geospatial, and database development staff in-house.
-      - Through an extended-term arrangement, we work side-by-side with you and your team to tackle mapping projects, spin-up data and maps, and even manage your GIS IT infrastructure.
-      - By working with you over an extended period, we can help evolve the solutions we build for you.
-    fa-icon: fa-users
-
-services-others:
-  - title: Data Strategy
-    subtitle: Making data the 2nd bullet in your organization's mission
-    desc:
-      - We help make data a program and process, not just a project; applying the civic tech ethos to your organization
-      - Refocusing workflows and business processes to be user and data-centric, but not tech-dependent
-      - Leverage OTS technology as needed to keep things simple and cost-effective
-    fa-icon: fa-disk
-  - title: Mapping Application R&D
-    subtitle: Open maps and tools to address common and pressing real-world problems
-    desc:
-      - In addition to consulting services, we also are also undertaking research and development to build web mapping tools focused on addressing common and pressing problems. We're interested in
-      - <ul><li>modeling gray and green stormwater infrastructure performance</li><li>identifying and prioritizing the maintenance of aging infrastructure</li><li>identifying regional economic development opportunities</li><li>mapping natural resource extraction impacts</li><li>evolving mapping technology to support urban design using the GeoDesign framework</li></ul>
-      - Keep an eye on <a class="page-scroll" href="#labs">CivicMapper Labs</a> for more information about our R&D efforts.
+  - title: Geospatial Data
+    short: CivicMapper makes geospatial and earth science data more accessible and usable for visualization and decision making. We create, curate, and modernize any kind of geospatial data, regardless of vintage or origin. We also build data processing and delivery pipelines and APIs to ensure that data can be deployed efficiently, sustainably, and on any platform. Our skilled staff specialize in all levels of geospatial data development and accuracy assessment. From legacy GIS databases to drone imagery to HD mapping data, CivicMapper can handle data projects of any size and scope.
+    fa-icon: fa-database
+  - title: Geospatial Analysis and Modeling
+    short: CivicMapper bring decades of geospatial data analysis experience to help bring new insights and intelligence to client projects. We are experts in both raster and vector data analyses and in creating derivative data sets that integrate seamlessly into your operations and technology stack. CivicMapper’s data development and analysis work is always accompanied with metadata to ensure clarity and process transparency.
     fa-icon: fa-cogs
+  - title: Web Map Application Development
+    short: CivicMapper takes geospatial data and gives them a life through spatial-based Internet applications and intuitive user interfaces. We excel in the creation of innovative web-deployable map applications for both public outreach and internal-facing business processes. Our specialized skills in geospatial coding and scripting helps our clients increase impact, expand user engagement, and maximize data assets.   
+    fa-icon: fa-map
+  - title: Geospatial IT Strategy & Enterprise GIS
+    short: Whether you are scaling your geospatial capacity or starting a GIS team from scratch, CivicMapper is your go-to provider of Enterprise GIS support and systems analysis at any stage. Our staff have decades of experience in helping businesses, governments, and non-profits maximize their GIS return on investment. We have helped many clients strategize, plan, and implement Enterprise-level GIS deployments with both proprietary and open-source technology, and are available for continuing support for as long as it is needed.
+    fa-icon: fa-server
+  - title: Remote Sensing and UAS Support
+    short: Our team of experts are highly skilled in map development and data creation from satellites and from both manned aircraft and unmanned aerial systems. We help companies and organizations develop their drone programs and guide them through the process of data collection, processing and delivery. CivicMapper brings many years of experience in working with LiDAR systems and imaging sensors, and continues to build expertise in emerging technologies like mobile LiDAR and image capture. Whether you require land cover mapping, elevation modeling, drone data services, or HD mapping of assets, we have you covered.
+    fa-icon: fa-globe

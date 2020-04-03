@@ -6,22 +6,26 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-3">
+			<div class="col-sm-4">
 				<h3>CIVICMAPPER</h3>
-				<p>{{site.data.contact.info.street}}<br>{{site.data.contact.info.name}}<br>{{site.data.contact.info.city}}, {{site.data.contact.info.state}} {{site.data.contact.info.zip}}<br>{{site.data.contact.info.phone}}</p>
-			</div>
-			<div class="col-sm-5">
-				<p>Contact Us:</p>
+				<p>
+					{{site.data.contact.info.street}}<br>
+					{{site.data.contact.info.city}}, {{site.data.contact.info.state}} {{site.data.contact.info.zip}}<br>
+					{{site.data.contact.info.phone}}<br>
+					<a href="mailto:{{site.email}}">{{site.email}}</a>
+				</p>
 				<ul class="list-inline social-buttons">
 					{% for network in site.data.contact.social %}
 					<li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
 					</li>
 					{% endfor %}
-				</ul>
+				</ul>				
 			</div>
 			<div class="col-sm-4">
-				<a class="twitter-timeline" data-height="350" data-link-color="#be1e2d" href="https://twitter.com/CivicMapper">Tweets by CivicMapper</a> 
-				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			<div class="col-sm-4">
+				<a class="twitter-timeline" data-height="350"data-link-color="#be1e2d"  href="https://twitter.com/CivicMapper?ref_src=twsrc%5Etfw">CivicMapper on Twitter</a> 
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 			</div>
 		</div>
 		<div class="row">
